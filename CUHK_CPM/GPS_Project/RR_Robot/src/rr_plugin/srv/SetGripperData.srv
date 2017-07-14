@@ -1,0 +1,4 @@
+float64 leftfingerpos
+float64 rightfingerpos
+---
+bool success

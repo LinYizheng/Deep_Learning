@@ -1,0 +1,12 @@
+## Instructions ##
+1. cd [/path/to/gps]
+2. Run ROS and GAZEBO 
+   ./launch.sh
+3. Creates a new experiment at experiments/[/path/to/your/new/experiment]:
+   ./run_new_experiment_pi.sh (please edit <experiment_name>)
+4. Setup target:
+   ./setup_target.sh (please edit <experiment_name>)
+5. Resume one specific experiment from # of iteration
+   ./run_resume_gps_pi.sh (please edit <experiment_name> <iteration #>)
+6. Test the policy based on the trained models
+   ./run_test_gps_pi.sh (please edit <experiment_name> <iteration #>)

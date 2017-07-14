@@ -1,0 +1,25 @@
+#!/bin/bash
+
+PASS_WRD=$1
+# CPU_AFF would change if user run Robot_Configuration
+CPU_AFF=8
+PREV_RT_COM=`ps aux | grep root | grep ./RT_Com_Module`
+cd  ~/GPS_Project/RR_Robot/src/pi_six_axis/pi_control/Test_20170116/robot_control_gui_Release
+# echo $PREV_RT_COM
+if [ -z "$PREV_RT_COM" ]; then # if PREV_RT_COM is null
+	roslaunch pi_gazebo pi_world.launch&
+	sleep 4s
+	
+	chmod 755 ./exec/Exec_GUI_6
+
+	echo $PASS_WRD | sudo -S  ./bin/RT_Com_Module_6 2>&1 | tee ./log/RT/RT_log_$(date +"%T").txt &
+
+	mkdir -p ./log/Core &
+	
+	echo $PASS_WRD | sudo -S  ./exec/Exec_GUI_6
+	# echo $PASS_WRD | sudo -S cset proc -s RT -e ./RT_Com_Module_6 2> "./log/RT/RT_log_$(date +"%T").txt" &
+else
+	echo "Program Exit!"
+	exit
+fi
+

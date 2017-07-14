@@ -1,0 +1,5 @@
+bool isDegree
+---
+bool success
+float64 leftfingerpos
+float64 rightfingerpos

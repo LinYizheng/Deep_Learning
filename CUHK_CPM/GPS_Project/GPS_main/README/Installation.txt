@@ -1,0 +1,27 @@
+## Installation ##
+
+#### Dependencies
+1. [Ubuntu 14.04] 
+2. [python 2.7]
+3. [numpy](v1.7.0+)
+4. [matplotlib](v1.5.0+)
+5. [scipy](v0.11.0+)
+6. [boost]: including boost-python
+6. [protobuf]
+8. [ROS indigo]: http://wiki.ros.org/indigo/Installation/Ubuntu
+9. [PR2 packages]: http://wiki.ros.org/Robots/PR2
+10.[Caffe]: http://caffe.berkeleyvision.org/
+11.[Gazebo 2.0]
+
+#### Setup
+1. Compile protobuffer:
+    cd gps
+    ./compile_proto.sh
+2. ROS package path setting 
+    Set up paths by adding the following to your `~/.bashrc` file:
+    export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/path/to/gps:/path/to/gps/src/gps_agent_pkg
+3. ROS Setup with Caffe Compilation:
+    cd src/gps_agent_pkg/
+    cmake . -DUSE_CAFFE=1 -DCAFFE_INCLUDE_PATH=/home/pi/caffe/distribute/include -DCAFFE_LIBRARY_PATH=/home/pi/caffe/build/lib
+    make -j
+

@@ -1,0 +1,59 @@
+Last updated by Wenfei Zhu on 14/12/2016
+
+## instructions
+1. run RR_Robot/launch_pi_robot.sh to launch pi robot
+2. run run_new_experiment_pi.sh to create a new experiment
+3. run GPS_main/setup_target.sh to launch the setup gui to control the robot and setup initial and target positions. The initials and targets are stored in the experiment folder. Note that this gui does not provide functions to move the hole on the table. If you want to move the hole, you can use PI robot ROS API. PLease refer to python/gps/utility/tgt_generator.py for more info.
+4. run run_resume_gps_pi.sh to resume training or to start training from scratch
+5. run_test_gps_pi.sh is not ready for use now
+IMPORTANT: do not forget to modify the parameters in shell scripts as before
+
+### major modifications ###
+1. upgraded to gazebo7
+
+2. PI robot ROS interface
+-python/gps/agent
+--pi
+---agent_pi_ros.py
+    PI ROS agent, used to sample data from gazebo PI robot simulator.
+---agent_pi_shm.py
+    DEPRECIATED
+    PI shared memory agent
+---pi_robot_API.py
+    PI robot ROS API
+--ros
+   PR2 ROS agent, not in use, only for reference
+
+3. States, actions and observations
+States: RR_COORD6D (dim=6) = Joint angles
+Actions: joint angles (dim=6)
+Observations: XPLUS (dim=12) = joint angles + target position
+The following functions were changed due to this modification:
+a. dynamics_utils.guess_dynamics
+b. lin_gauss_init.init_lqr
+
+4. cost function
+-python/gps/algorithm/cost/cost_coord6d.py
+we use this file to debug and test cost functions
+
+5. Logger
+some loggers have been added for debugging. The log files can be found in <experiment name>/log/
+
+6 Utility
+a. tgt_generator
+This function generates random initials and targets. It moves the hole!
+b. data_analyser
+This function is used to plot trajectories and cost functions AFTER training (realtime plotting is under development). This function reads data files stored in <experiment name>/data_files/ folder. The usage of this function is left for the user to explore. The user is welcome to improve this function.
+c. replay
+This function is used to replay the training process (only the sampling part linear Gaussian policy) for the purpose of recording demos.
+d. create_train_net
+This function creates the network for E2E GPS training
+
+7. Target setup GUI
+The target setup GUI designed for PI robot can be found at gps.gui.pi_six_axis_gui. This function will be called when you run setup_target.sh. NOTE: GUIs designed by the original authors are currently not compatible with PI version because end-effector position is not included in current STATES but it is used by the gui.
+
+8. E2E GPS with Vision
+a. PolicyOptCaffeVision
+This class was defined for policy optimization with vision.
+b. CaffePolicy
+This class was modified for the network with vision.

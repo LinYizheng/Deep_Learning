@@ -1,0 +1,2127 @@
+/home/turinglife/GPS_Project/GPS_main/python/../experiments/ja_mode_02242017_090718.experiment/targets.npz
+linking.....
+zx, enter init_lqr
+Controller is trying to hold: [ 89.89  0.97 -60.48  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.80  0.39 -60.10  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.29  1.96 -59.91  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.45  0.54 -61.58  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.23 -0.19 -60.57  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.08 -0.56 -60.12  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.75 -1.11 -59.94  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.11  0.58 -60.11  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.74 -0.24 -60.83  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.17  2.18 -60.53  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.32  0.47 -59.78  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.45  0.57 -58.88  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.19 -1.22 -60.74  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.86  1.34 -60.29  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.44 -0.67 -61.28  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.41  0.14 -59.20  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.89  0.81 -59.99  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.59 -1.14 -58.21  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.33 -0.23 -60.17  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.90  0.44 -61.25  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.53 -0.12 -60.39  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.80  0.44 -60.01  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.31  0.63 -61.31  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.59  0.82 -59.81  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.27 -0.23 -58.63  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.48 -1.12 -60.61  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.00 -0.47 -59.00  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.72  0.74 -59.58  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.25 -0.11 -58.67  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.55  1.00 -60.95  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.42 -2.54 -59.42  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 88.76 -0.07 -58.97  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.68 -0.29 -61.72  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.58  0.45 -59.59  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.24  0.79 -58.89  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.87 -1.22 -59.44  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 91.06 -0.53 -59.00  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 90.47  0.61 -58.84  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.15 -1.10 -58.76  0.00]
+zx, enter __init__
+zx, enter init_lqr
+Controller is trying to hold: [ 89.47 -0.63 -60.28  0.00]
+zx, enter __init__
+Linear Gaussian Policy
+zx, noise.shape = (100, 4)
+Condition: 0
+Time step 0, joint angles and end-effector coordinates:
+cur:  ['89.895', '0.974', '-60.482', '0.000'] ['-2.241', '-399.979', '97.803', '-90.866']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 0, X+U
+[ 92.08  0.89 -59.29  1.87]
+Condition: 0
+Time step 1, joint angles and end-effector coordinates:
+cur:  ['92.019', '0.921', '-59.287', '1.839'] ['-2.241', '-399.979', '97.803', '-90.866']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 1, X+U
+[ 92.64  0.89 -58.94  2.27]
+Condition: 0
+Time step 2, joint angles and end-effector coordinates:
+cur:  ['92.625', '0.895', '-58.932', '2.264'] ['-16.904', '-399.630', '98.297', '-94.779']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 2, X+U
+[ 92.47  0.90 -58.96  1.92]
+Condition: 0
+Time step 3, joint angles and end-effector coordinates:
+cur:  ['92.472', '0.901', '-58.948', '1.917'] ['-21.049', '-399.434', '98.445', '-95.784']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 3, X+U
+[ 92.02  0.92 -59.11  1.21]
+Condition: 0
+Time step 4, joint angles and end-effector coordinates:
+cur:  ['92.021', '0.915', '-59.098', '1.216'] ['-19.999', '-399.488', '98.438', '-95.290']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 4, X+U
+[ 91.58  0.90 -59.30  0.49]
+Condition: 0
+Time step 5, joint angles and end-effector coordinates:
+cur:  ['91.582', '0.902', '-59.288', '0.491'] ['-16.899', '-399.630', '98.376', '-94.152']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 5, X+U
+[ 91.31  0.84 -59.54 -0.01]
+Condition: 0
+Time step 6, joint angles and end-effector coordinates:
+cur:  ['91.315', '0.840', '-59.529', '-0.005'] ['-13.795', '-399.750', '98.296', '-92.975']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 6, X+U
+[ 91.21  0.73 -59.89 -0.14]
+Condition: 0
+Time step 7, joint angles and end-effector coordinates:
+cur:  ['91.208', '0.731', '-59.877', '-0.141'] ['-11.745', '-399.817', '98.196', '-92.150']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 7, X+U
+[ 91.09  0.59 -60.38  0.06]
+Condition: 0
+Time step 8, joint angles and end-effector coordinates:
+cur:  ['91.094', '0.594', '-60.372', '0.055'] ['-10.666', '-399.850', '98.051', '-91.798']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 8, X+U
+[ 90.79  0.43 -61.00  0.47]
+Condition: 0
+Time step 9, joint angles and end-effector coordinates:
+cur:  ['90.793', '0.435', '-60.993', '0.467'] ['-9.451', '-399.883', '97.845', '-91.743']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 9, X+U
+[ 90.24  0.26 -61.66  0.96]
+Condition: 0
+Time step 10, joint angles and end-effector coordinates:
+cur:  ['90.246', '0.259', '-61.647', '0.956'] ['-6.863', '-399.938', '97.586', '-91.695']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 10, X+U
+[ 89.56  0.09 -62.20  1.34]
+Condition: 0
+Time step 11, joint angles and end-effector coordinates:
+cur:  ['89.563', '0.091', '-62.188', '1.341'] ['-2.505', '-399.991', '97.314', '-91.461']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 11, X+U
+[ 88.93 -0.03 -62.50  1.45]
+Condition: 0
+Time step 12, joint angles and end-effector coordinates:
+cur:  ['88.943', '-0.032', '-62.491', '1.450'] ['2.776', '-399.990', '97.089', '-90.994']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 12, X+U
+[ 88.53 -0.08 -62.55  1.21]
+Condition: 0
+Time step 13, joint angles and end-effector coordinates:
+cur:  ['88.537', '-0.078', '-62.543', '1.206'] ['7.472', '-399.930', '96.962', '-90.361']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 13, X+U
+[ 88.43 -0.04 -62.45  0.68]
+Condition: 0
+Time step 14, joint angles and end-effector coordinates:
+cur:  ['88.434', '-0.042', '-62.437', '0.686'] ['10.450', '-399.863', '96.940', '-89.666']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 14, X+U
+[ 88.57  0.05 -62.28  0.07]
+Condition: 0
+Time step 15, joint angles and end-effector coordinates:
+cur:  ['88.564', '0.044', '-62.273', '0.070'] ['11.059', '-399.847', '96.985', '-89.078']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 15, X+U
+[ 88.81  0.12 -62.07 -0.42]
+Condition: 0
+Time step 16, joint angles and end-effector coordinates:
+cur:  ['88.804', '0.124', '-62.058', '-0.417'] ['9.887', '-399.878', '97.053', '-88.678']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 16, X+U
+[ 89.05  0.18 -61.74 -0.69]
+Condition: 0
+Time step 17, joint angles and end-effector coordinates:
+cur:  ['89.044', '0.177', '-61.730', '-0.693'] ['7.971', '-399.920', '97.143', '-88.511']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 17, X+U
+[ 89.22  0.26 -61.28 -0.82]
+Condition: 0
+Time step 18, joint angles and end-effector coordinates:
+cur:  ['89.224', '0.260', '-61.272', '-0.819'] ['6.132', '-399.953', '97.279', '-88.528']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 18, X+U
+[ 89.33  0.50 -60.77 -0.88]
+Condition: 0
+Time step 19, joint angles and end-effector coordinates:
+cur:  ['89.326', '0.488', '-60.761', '-0.884'] ['4.626', '-399.972', '97.470', '-88.665']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 19, X+U
+[ 89.38  0.98 -60.32 -0.87]
+Condition: 0
+Time step 20, joint angles and end-effector coordinates:
+cur:  ['89.384', '0.970', '-60.306', '-0.874'] ['3.211', '-399.984', '97.683', '-88.931']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 20, X+U
+[ 89.45  1.67 -60.00 -0.68]
+Condition: 0
+Time step 21, joint angles and end-effector coordinates:
+cur:  ['89.455', '1.650', '-59.995', '-0.686'] ['1.339', '-399.984', '97.872', '-89.480']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 21, X+U
+[ 89.59  2.36 -59.89 -0.25]
+Condition: 0
+Time step 22, joint angles and end-effector coordinates:
+cur:  ['89.591', '2.344', '-59.876', '-0.258'] ['-1.239', '-399.957', '98.002', '-90.421']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 22, X+U
+[ 89.81  2.86 -59.97  0.32]
+Condition: 0
+Time step 23, joint angles and end-effector coordinates:
+cur:  ['89.804', '2.816', '-59.955', '0.282'] ['-4.304', '-399.894', '98.052', '-91.677']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 23, X+U
+[ 90.10  3.07 -60.18  0.82]
+Condition: 0
+Time step 24, joint angles and end-effector coordinates:
+cur:  ['90.095', '3.065', '-60.174', '0.809'] ['-7.228', '-399.816', '98.019', '-92.902']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 24, X+U
+[ 90.42  3.11 -60.41  1.14]
+Condition: 0
+Time step 25, joint angles and end-effector coordinates:
+cur:  ['90.421', '3.116', '-60.399', '1.140'] ['-10.020', '-399.734', '97.927', '-93.969']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 25, X+U
+[ 90.70  3.11 -60.49  1.29]
+Condition: 0
+Time step 26, joint angles and end-effector coordinates:
+cur:  ['90.698', '3.113', '-60.481', '1.286'] ['-12.451', '-399.661', '97.834', '-94.677']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 26, X+U
+[ 90.87  3.12 -60.37  1.40]
+Condition: 0
+Time step 27, joint angles and end-effector coordinates:
+cur:  ['90.860', '3.123', '-60.358', '1.397'] ['-14.373', '-399.596', '97.799', '-95.097']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 27, X+U
+[ 90.90  3.05 -60.13  1.62]
+Condition: 0
+Time step 28, joint angles and end-effector coordinates:
+cur:  ['90.899', '3.052', '-60.120', '1.622'] ['-15.531', '-399.552', '97.851', '-95.380']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 28, X+U
+[ 90.83  2.76 -59.96  1.99]
+Condition: 0
+Time step 29, joint angles and end-effector coordinates:
+cur:  ['90.829', '2.763', '-59.948', '1.986'] ['-15.589', '-399.556', '97.950', '-95.573']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 29, X+U
+[ 90.68  2.24 -59.99  2.39]
+Condition: 0
+Time step 30, joint angles and end-effector coordinates:
+cur:  ['90.680', '2.253', '-59.982', '2.389'] ['-14.218', '-399.633', '98.021', '-95.578']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 30, X+U
+[ 90.48  1.68 -60.24  2.66]
+Condition: 0
+Time step 31, joint angles and end-effector coordinates:
+cur:  ['90.479', '1.690', '-60.228', '2.660'] ['-11.624', '-399.755', '98.008', '-95.322']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 31, X+U
+[ 90.26  1.27 -60.58  2.65]
+Condition: 0
+Time step 32, joint angles and end-effector coordinates:
+cur:  ['90.261', '1.293', '-60.575', '2.654'] ['-8.506', '-399.867', '97.905', '-94.829']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 32, X+U
+[ 90.06  1.11 -60.88  2.35]
+Condition: 0
+Time step 33, joint angles and end-effector coordinates:
+cur:  ['90.064', '1.111', '-60.871', '2.349'] ['-5.771', '-399.933', '97.761', '-94.208']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 33, X+U
+[ 89.93  1.12 -61.04  1.90]
+Condition: 0
+Time step 34, joint angles and end-effector coordinates:
+cur:  ['89.931', '1.114', '-61.026', '1.909'] ['-3.836', '-399.963', '97.637', '-93.523']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 34, X+U
+[ 89.87  1.19 -61.07  1.56]
+Condition: 0
+Time step 35, joint angles and end-effector coordinates:
+cur:  ['89.875', '1.183', '-61.062', '1.564'] ['-2.916', '-399.971', '97.572', '-92.953']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 35, X+U
+[ 89.87  1.22 -61.08  1.41]
+Condition: 0
+Time step 36, joint angles and end-effector coordinates:
+cur:  ['89.868', '1.218', '-61.067', '1.414'] ['-2.744', '-399.970', '97.557', '-92.622']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 36, X+U
+[ 89.85  1.15 -61.11  1.36]
+Condition: 0
+Time step 37, joint angles and end-effector coordinates:
+cur:  ['89.854', '1.152', '-61.098', '1.359'] ['-2.798', '-399.968', '97.555', '-92.500']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 37, X+U
+[ 89.80  1.03 -61.15  1.17]
+Condition: 0
+Time step 38, joint angles and end-effector coordinates:
+cur:  ['89.798', '1.029', '-61.141', '1.176'] ['-2.501', '-399.972', '97.543', '-92.366']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 38, X+U
+[ 89.72  0.98 -61.16  0.75]
+Condition: 0
+Time step 39, joint angles and end-effector coordinates:
+cur:  ['89.722', '0.982', '-61.152', '0.754'] ['-1.737', '-399.980', '97.524', '-92.004']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 39, X+U
+[ 89.68  1.11 -61.12  0.20]
+Condition: 0
+Time step 40, joint angles and end-effector coordinates:
+cur:  ['89.676', '1.103', '-61.108', '0.197'] ['-1.057', '-399.984', '97.520', '-91.458']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 40, X+U
+[ 89.70  1.32 -61.05 -0.28]
+Condition: 0
+Time step 41, joint angles and end-effector coordinates:
+cur:  ['89.704', '1.313', '-61.040', '-0.283'] ['-1.108', '-399.980', '97.538', '-90.977']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 41, X+U
+[ 89.81  1.40 -61.03 -0.55]
+Condition: 0
+Time step 42, joint angles and end-effector coordinates:
+cur:  ['89.810', '1.396', '-61.022', '-0.551'] ['-1.943', '-399.969', '97.567', '-90.733']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 42, X+U
+[ 89.94  1.18 -61.13 -0.64]
+Condition: 0
+Time step 43, joint angles and end-effector coordinates:
+cur:  ['89.936', '1.197', '-61.121', '-0.634'] ['-2.940', '-399.960', '97.574', '-90.655']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 43, X+U
+[ 90.01  0.71 -61.36 -0.70]
+Condition: 0
+Time step 44, joint angles and end-effector coordinates:
+cur:  ['90.004', '0.735', '-61.345', '-0.685'] ['-3.213', '-399.966', '97.533', '-90.499']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 44, X+U
+[ 89.97  0.20 -61.63 -0.79]
+Condition: 0
+Time step 45, joint angles and end-effector coordinates:
+cur:  ['89.964', '0.247', '-61.616', '-0.772'] ['-2.270', '-399.985', '97.439', '-90.053']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 45, X+U
+[ 89.87 -0.12 -61.79 -0.84]
+Condition: 0
+Time step 46, joint angles and end-effector coordinates:
+cur:  ['89.871', '-0.091', '-61.781', '-0.829'] ['-0.503', '-399.999', '97.327', '-89.439']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 46, X+U
+[ 89.81 -0.16 -61.67 -0.70]
+Condition: 0
+Time step 47, joint angles and end-effector coordinates:
+cur:  ['89.808', '-0.154', '-61.663', '-0.700'] ['1.182', '-399.998', '97.258', '-88.950']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 47, X+U
+[ 89.83  0.02 -61.17 -0.32]
+Condition: 0
+Time step 48, joint angles and end-effector coordinates:
+cur:  ['89.833', '0.018', '-61.165', '-0.327'] ['1.809', '-399.996', '97.307', '-88.954']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 48, X+U
+[ 89.95  0.23 -60.40  0.15]
+Condition: 0
+Time step 49, joint angles and end-effector coordinates:
+cur:  ['89.954', '0.229', '-60.387', '0.142'] ['1.113', '-399.998', '97.514', '-89.524']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 49, X+U
+[ 90.14  0.32 -59.62  0.50]
+Condition: 0
+Time step 50, joint angles and end-effector coordinates:
+cur:  ['90.140', '0.320', '-59.607', '0.494'] ['-0.379', '-399.999', '97.839', '-90.325']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 50, X+U
+[ 90.34  0.26 -59.11  0.60]
+Condition: 0
+Time step 51, joint angles and end-effector coordinates:
+cur:  ['90.335', '0.267', '-59.102', '0.596'] ['-1.954', '-399.994', '98.164', '-90.954']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 51, X+U
+[ 90.47  0.17 -58.96  0.47]
+Condition: 0
+Time step 52, joint angles and end-effector coordinates:
+cur:  ['90.467', '0.169', '-58.955', '0.475'] ['-3.157', '-399.986', '98.374', '-91.198']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 52, X+U
+[ 90.44  0.15 -59.07  0.28]
+Condition: 0
+Time step 53, joint angles and end-effector coordinates:
+cur:  ['90.441', '0.149', '-59.057', '0.278'] ['-3.777', '-399.982', '98.436', '-91.111']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 53, X+U
+[ 90.18  0.25 -59.29  0.15]
+Condition: 0
+Time step 54, joint angles and end-effector coordinates:
+cur:  ['90.179', '0.246', '-59.278', '0.146'] ['-3.536', '-399.984', '98.393', '-90.868']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 54, X+U
+[ 89.68  0.41 -59.60  0.14]
+Condition: 0
+Time step 55, joint angles and end-effector coordinates:
+cur:  ['89.689', '0.401', '-59.594', '0.135'] ['-1.997', '-399.994', '98.301', '-90.570']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 55, X+U
+[ 89.13  0.52 -60.05  0.22]
+Condition: 0
+Time step 56, joint angles and end-effector coordinates:
+cur:  ['89.131', '0.515', '-60.041', '0.221'] ['0.951', '-399.996', '98.169', '-90.225']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 56, X+U
+[ 88.74  0.51 -60.58  0.36]
+Condition: 0
+Time step 57, joint angles and end-effector coordinates:
+cur:  ['88.748', '0.504', '-60.571', '0.357'] ['4.495', '-399.971', '97.983', '-89.867']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 57, X+U
+[ 88.69  0.32 -61.01  0.52]
+Condition: 0
+Time step 58, joint angles and end-effector coordinates:
+cur:  ['88.692', '0.320', '-61.001', '0.516'] ['7.201', '-399.931', '97.762', '-89.609']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 58, X+U
+[ 88.91 -0.04 -61.14  0.67]
+Condition: 0
+Time step 59, joint angles and end-effector coordinates:
+cur:  ['88.907', '-0.035', '-61.134', '0.675'] ['8.155', '-399.915', '97.583', '-89.528']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 59, X+U
+[ 89.18 -0.50 -60.93  0.80]
+Condition: 0
+Time step 60, joint angles and end-effector coordinates:
+cur:  ['89.161', '-0.467', '-60.918', '0.804'] ['7.735', '-399.925', '97.528', '-89.548']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 60, X+U
+[ 89.28 -0.93 -60.51  0.86]
+Condition: 0
+Time step 61, joint angles and end-effector coordinates:
+cur:  ['89.278', '-0.908', '-60.502', '0.867'] ['7.281', '-399.930', '97.618', '-89.499']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 61, X+U
+[ 89.18 -1.22 -60.16  0.86]
+Condition: 0
+Time step 62, joint angles and end-effector coordinates:
+cur:  ['89.184', '-1.218', '-60.146', '0.865'] ['7.816', '-399.911', '97.791', '-89.237']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 62, X+U
+[ 88.93 -1.31 -60.06  0.81]
+Condition: 0
+Time step 63, joint angles and end-effector coordinates:
+cur:  ['88.933', '-1.310', '-60.052', '0.811'] ['9.421', '-399.867', '97.939', '-88.830']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 63, X+U
+[ 88.61 -1.17 -60.25  0.68]
+Condition: 0
+Time step 64, joint angles and end-effector coordinates:
+cur:  ['88.609', '-1.177', '-60.241', '0.673'] ['11.451', '-399.810', '97.978', '-88.433']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 64, X+U
+[ 88.31 -0.84 -60.57  0.39]
+Condition: 0
+Time step 65, joint angles and end-effector coordinates:
+cur:  ['88.312', '-0.851', '-60.561', '0.391'] ['13.308', '-399.758', '97.900', '-88.105']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 65, X+U
+[ 88.20 -0.37 -60.86 -0.03]
+Condition: 0
+Time step 66, joint angles and end-effector coordinates:
+cur:  ['88.199', '-0.383', '-60.849', '-0.032'] ['14.382', '-399.731', '97.766', '-87.852']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 66, X+U
+[ 88.43  0.16 -61.09 -0.42]
+Condition: 0
+Time step 67, joint angles and end-effector coordinates:
+cur:  ['88.433', '0.153', '-61.084', '-0.420'] ['13.740', '-399.762', '97.646', '-87.784']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 67, X+U
+[ 89.03  0.69 -61.38 -0.47]
+Condition: 0
+Time step 68, joint angles and end-effector coordinates:
+cur:  ['89.027', '0.683', '-61.373', '-0.476'] ['10.468', '-399.863', '97.548', '-88.167']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 68, X+U
+[ 89.79  1.17 -61.79 -0.03]
+Condition: 0
+Time step 69, joint angles and end-effector coordinates:
+cur:  ['89.784', '1.157', '-61.776', '-0.033'] ['4.706', '-399.965', '97.428', '-89.234']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 69, X+U
+[ 90.46  1.56 -62.20  0.76]
+Condition: 0
+Time step 70, joint angles and end-effector coordinates:
+cur:  ['90.435', '1.537', '-62.193', '0.721'] ['-2.031', '-399.975', '97.260', '-90.910']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 70, X+U
+[ 90.93  1.85 -62.47  1.47]
+Condition: 0
+Time step 71, joint angles and end-effector coordinates:
+cur:  ['90.927', '1.841', '-62.457', '1.463'] ['-7.728', '-399.890', '97.086', '-92.693']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 71, X+U
+[ 91.26  2.01 -62.48  1.82]
+Condition: 0
+Time step 72, joint angles and end-effector coordinates:
+cur:  ['91.254', '2.011', '-62.471', '1.814'] ['-12.098', '-399.766', '96.976', '-94.233']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 72, X+U
+[ 91.44  2.04 -62.30  1.71]
+Condition: 0
+Time step 73, joint angles and end-effector coordinates:
+cur:  ['91.434', '2.044', '-62.288', '1.713'] ['-14.891', '-399.662', '96.970', '-95.079']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 73, X+U
+[ 91.41  1.98 -62.05  1.29]
+Condition: 0
+Time step 74, joint angles and end-effector coordinates:
+cur:  ['91.406', '1.985', '-62.042', '1.292'] ['-16.249', '-399.607', '97.047', '-95.191']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 74, X+U
+[ 91.14  1.87 -61.86  0.74]
+Condition: 0
+Time step 75, joint angles and end-effector coordinates:
+cur:  ['91.140', '1.872', '-61.851', '0.746'] ['-15.872', '-399.626', '97.149', '-94.683']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 75, X+U
+[ 90.72  1.68 -61.75  0.25]
+Condition: 0
+Time step 76, joint angles and end-effector coordinates:
+cur:  ['90.722', '1.680', '-61.745', '0.253'] ['-13.672', '-399.714', '97.229', '-93.757']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 76, X+U
+[ 90.27  1.37 -61.67 -0.05]
+Condition: 0
+Time step 77, joint angles and end-effector coordinates:
+cur:  ['90.276', '1.372', '-61.664', '-0.042'] ['-10.169', '-399.828', '97.273', '-92.655']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 77, X+U
+[ 89.85  0.97 -61.54 -0.11]
+Condition: 0
+Time step 78, joint angles and end-effector coordinates:
+cur:  ['89.851', '0.977', '-61.528', '-0.105'] ['-6.116', '-399.925', '97.307', '-91.606']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 78, X+U
+[ 89.43  0.59 -61.33 -0.01]
+Condition: 0
+Time step 79, joint angles and end-effector coordinates:
+cur:  ['89.440', '0.616', '-61.317', '-0.008'] ['-1.942', '-399.981', '97.363', '-90.723']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 79, X+U
+[ 89.02  0.36 -61.11  0.16]
+Condition: 0
+Time step 80, joint angles and end-effector coordinates:
+cur:  ['89.027', '0.359', '-61.100', '0.161'] ['2.039', '-399.989', '97.451', '-90.046']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 80, X+U
+[ 88.70  0.28 -61.02  0.36]
+Condition: 0
+Time step 81, joint angles and end-effector coordinates:
+cur:  ['88.703', '0.283', '-61.006', '0.361'] ['5.698', '-399.957', '97.542', '-89.547']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 81, X+U
+[ 88.54  0.35 -61.15  0.56]
+Condition: 0
+Time step 82, joint angles and end-effector coordinates:
+cur:  ['88.546', '0.344', '-61.139', '0.559'] ['8.194', '-399.915', '97.581', '-89.346']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 82, X+U
+[ 88.59  0.45 -61.50  0.70]
+Condition: 0
+Time step 83, joint angles and end-effector coordinates:
+cur:  ['88.589', '0.453', '-61.492', '0.696'] ['9.102', '-399.895', '97.525', '-89.449']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 83, X+U
+[ 88.81  0.54 -61.93  0.69]
+Condition: 0
+Time step 84, joint angles and end-effector coordinates:
+cur:  ['88.803', '0.535', '-61.921', '0.690'] ['8.466', '-399.907', '97.378', '-89.738']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 84, X+U
+[ 89.14  0.57 -62.24  0.48]
+Condition: 0
+Time step 85, joint angles and end-effector coordinates:
+cur:  ['89.135', '0.571', '-62.234', '0.478'] ['6.723', '-399.939', '97.199', '-90.028']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 85, X+U
+[ 89.52  0.57 -62.34  0.07]
+Condition: 0
+Time step 86, joint angles and end-effector coordinates:
+cur:  ['89.518', '0.572', '-62.328', '0.076'] ['4.296', '-399.972', '97.069', '-90.184']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 86, X+U
+[ 89.87  0.55 -62.23 -0.38]
+Condition: 0
+Time step 87, joint angles and end-effector coordinates:
+cur:  ['89.862', '0.552', '-62.224', '-0.361'] ['1.613', '-399.992', '97.030', '-90.166']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 87, X+U
+[ 90.10  0.50 -61.99 -0.67]
+Condition: 0
+Time step 88, joint angles and end-effector coordinates:
+cur:  ['90.094', '0.506', '-61.983', '-0.667'] ['-0.730', '-399.995', '97.073', '-90.053']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 88, X+U
+[ 90.15  0.44 -61.65 -0.72]
+Condition: 0
+Time step 89, joint angles and end-effector coordinates:
+cur:  ['90.150', '0.447', '-61.643', '-0.721'] ['-2.203', '-399.990', '97.174', '-89.933']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 89, X+U
+[ 90.09  0.38 -61.25 -0.60]
+Condition: 0
+Time step 90, joint angles and end-effector coordinates:
+cur:  ['90.089', '0.378', '-61.244', '-0.600'] ['-2.411', '-399.990', '97.315', '-89.876']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 90, X+U
+[ 90.03  0.28 -60.88 -0.46]
+Condition: 0
+Time step 91, joint angles and end-effector coordinates:
+cur:  ['90.026', '0.286', '-60.875', '-0.456'] ['-1.773', '-399.994', '97.482', '-89.867']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 91, X+U
+[ 90.03  0.14 -60.67 -0.38]
+Condition: 0
+Time step 92, joint angles and end-effector coordinates:
+cur:  ['90.034', '0.143', '-60.665', '-0.379'] ['-1.055', '-399.997', '97.635', '-89.857']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 92, X+U
+[ 90.09 -0.06 -60.72 -0.37]
+Condition: 0
+Time step 93, joint angles and end-effector coordinates:
+cur:  ['90.084', '-0.055', '-60.712', '-0.371'] ['-0.670', '-399.999', '97.723', '-89.797']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 93, X+U
+[ 90.10 -0.27 -61.02 -0.44]
+Condition: 0
+Time step 94, joint angles and end-effector coordinates:
+cur:  ['90.102', '-0.258', '-61.012', '-0.435'] ['-0.418', '-400.000', '97.703', '-89.658']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 94, X+U
+[ 90.08 -0.42 -61.43 -0.62]
+Condition: 0
+Time step 95, joint angles and end-effector coordinates:
+cur:  ['90.077', '-0.414', '-61.421', '-0.613'] ['0.075', '-399.999', '97.578', '-89.409']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 95, X+U
+[ 90.09 -0.47 -61.70 -0.88]
+Condition: 0
+Time step 96, joint angles and end-effector coordinates:
+cur:  ['90.091', '-0.471', '-61.689', '-0.882'] ['0.728', '-399.997', '97.408', '-89.050']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 96, X+U
+[ 90.24 -0.41 -61.61 -1.09]
+Condition: 0
+Time step 97, joint angles and end-effector coordinates:
+cur:  ['90.241', '-0.408', '-61.600', '-1.093'] ['0.806', '-399.996', '97.296', '-88.737']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 97, X+U
+[ 90.54 -0.24 -61.14 -1.10]
+Condition: 0
+Time step 98, joint angles and end-effector coordinates:
+cur:  ['90.532', '-0.243', '-61.131', '-1.105'] ['-0.438', '-399.997', '97.333', '-88.740']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 98, X+U
+[ 91.01 -0.11 -60.46 -1.01]
+Condition: 0
+Time step 99, joint angles and end-effector coordinates:
+cur:  ['91.004', '-0.113', '-60.447', '-1.011'] ['-2.971', '-399.988', '97.529', '-89.184']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 99, X+U
+[ 92.30 -0.53 -59.42 -1.32]
+Linear Gaussian Policy
+zx, noise.shape = (100, 4)
+Condition: 0
+Time step 0, joint angles and end-effector coordinates:
+cur:  ['89.895', '0.974', '-60.482', '0.000'] ['-2.241', '-399.979', '97.803', '-90.866']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 0, X+U
+[ 88.58 -0.20 -59.67  0.72]
+Condition: 0
+Time step 1, joint angles and end-effector coordinates:
+cur:  ['88.600', '-0.163', '-59.662', '0.723'] ['-2.241', '-399.979', '97.803', '-90.866']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 1, X+U
+[ 88.28 -0.46 -59.41  1.08]
+Condition: 0
+Time step 2, joint angles and end-effector coordinates:
+cur:  ['88.281', '-0.460', '-59.399', '1.080'] ['10.283', '-399.867', '98.141', '-89.158']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 2, X+U
+[ 88.51 -0.28 -59.38  1.28]
+Condition: 0
+Time step 3, joint angles and end-effector coordinates:
+cur:  ['88.506', '-0.282', '-59.372', '1.275'] ['13.402', '-399.772', '98.251', '-88.902']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 3, X+U
+[ 89.01  0.16 -59.49  1.22]
+Condition: 0
+Time step 4, joint angles and end-effector coordinates:
+cur:  ['89.002', '0.146', '-59.475', '1.221'] ['11.290', '-399.839', '98.261', '-89.499']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 4, X+U
+[ 89.55  0.68 -59.72  0.79]
+Condition: 0
+Time step 5, joint angles and end-effector coordinates:
+cur:  ['89.545', '0.665', '-59.711', '0.789'] ['6.526', '-399.946', '98.219', '-90.368']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 5, X+U
+[ 89.98  1.14 -60.07  0.02]
+Condition: 0
+Time step 6, joint angles and end-effector coordinates:
+cur:  ['89.977', '1.132', '-60.063', '0.020'] ['1.141', '-399.992', '98.120', '-90.999']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 6, X+U
+[ 90.25  1.41 -60.43 -0.78]
+Condition: 0
+Time step 7, joint angles and end-effector coordinates:
+cur:  ['90.247', '1.403', '-60.425', '-0.779'] ['-3.301', '-399.967', '97.974', '-91.130']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 7, X+U
+[ 90.41  1.40 -60.68 -1.25]
+Condition: 0
+Time step 8, joint angles and end-effector coordinates:
+cur:  ['90.410', '1.404', '-60.668', '-1.246'] ['-6.012', '-399.925', '97.823', '-90.871']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 8, X+U
+[ 90.52  1.14 -60.75 -1.24]
+Condition: 0
+Time step 9, joint angles and end-effector coordinates:
+cur:  ['90.519', '1.144', '-60.739', '-1.238'] ['-7.147', '-399.907', '97.722', '-90.567']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 9, X+U
+[ 90.56  0.71 -60.70 -0.88]
+Condition: 0
+Time step 10, joint angles and end-effector coordinates:
+cur:  ['90.558', '0.734', '-60.688', '-0.878'] ['-7.114', '-399.917', '97.692', '-90.424']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 10, X+U
+[ 90.50  0.26 -60.63 -0.35]
+Condition: 0
+Time step 11, joint angles and end-effector coordinates:
+cur:  ['90.493', '0.298', '-60.622', '-0.365'] ['-6.136', '-399.945', '97.713', '-90.414']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 11, X+U
+[ 90.31 -0.11 -60.63  0.20]
+Condition: 0
+Time step 12, joint angles and end-effector coordinates:
+cur:  ['90.308', '-0.092', '-60.622', '0.191'] ['-4.350', '-399.975', '97.741', '-90.426']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 12, X+U
+[ 90.02 -0.39 -60.72  0.68]
+Condition: 0
+Time step 13, joint angles and end-effector coordinates:
+cur:  ['90.022', '-0.384', '-60.708', '0.675'] ['-1.866', '-399.996', '97.741', '-90.406']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 13, X+U
+[ 89.65 -0.54 -60.88  0.95]
+Condition: 0
+Time step 14, joint angles and end-effector coordinates:
+cur:  ['89.657', '-0.536', '-60.868', '0.950'] ['1.016', '-399.996', '97.705', '-90.314']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 14, X+U
+[ 89.23 -0.42 -61.10  0.92]
+Condition: 0
+Time step 15, joint angles and end-effector coordinates:
+cur:  ['89.234', '-0.430', '-61.094', '0.915'] ['4.035', '-399.975', '97.638', '-90.071']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 15, X+U
+[ 88.82 -0.01 -61.33  0.65]
+Condition: 0
+Time step 16, joint angles and end-effector coordinates:
+cur:  ['88.825', '-0.025', '-61.318', '0.642'] ['6.661', '-399.942', '97.544', '-89.720']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 16, X+U
+[ 88.57  0.50 -61.39  0.35]
+Condition: 0
+Time step 17, joint angles and end-effector coordinates:
+cur:  ['88.571', '0.481', '-61.384', '0.350'] ['8.280', '-399.914', '97.451', '-89.442']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 17, X+U
+[ 88.65  0.76 -61.17  0.22]
+Condition: 0
+Time step 18, joint angles and end-effector coordinates:
+cur:  ['88.652', '0.750', '-61.156', '0.219'] ['8.502', '-399.906', '97.423', '-89.403']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 18, X+U
+[ 89.13  0.61 -60.68  0.25]
+Condition: 0
+Time step 19, joint angles and end-effector coordinates:
+cur:  ['89.126', '0.615', '-60.669', '0.257'] ['7.120', '-399.928', '97.518', '-89.621']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 19, X+U
+[ 89.85  0.20 -60.13  0.33]
+Condition: 0
+Time step 20, joint angles and end-effector coordinates:
+cur:  ['89.834', '0.225', '-60.120', '0.336'] ['4.226', '-399.972', '97.721', '-89.998']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 20, X+U
+[ 90.51 -0.15 -59.69  0.32]
+Condition: 0
+Time step 21, joint angles and end-effector coordinates:
+cur:  ['90.503', '-0.139', '-59.685', '0.330'] ['0.473', '-399.999', '97.950', '-90.394']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 21, X+U
+[ 90.91 -0.24 -59.42  0.21]
+Condition: 0
+Time step 22, joint angles and end-effector coordinates:
+cur:  ['90.901', '-0.235', '-59.411', '0.210'] ['-3.088', '-399.988', '98.131', '-90.695']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 22, X+U
+[ 90.96 -0.01 -59.29  0.01]
+Condition: 0
+Time step 23, joint angles and end-effector coordinates:
+cur:  ['90.959', '-0.021', '-59.284', '0.014'] ['-5.574', '-399.960', '98.245', '-90.876']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 23, X+U
+[ 90.73  0.35 -59.33 -0.20]
+Condition: 0
+Time step 24, joint angles and end-effector coordinates:
+cur:  ['90.737', '0.340', '-59.322', '-0.202'] ['-6.632', '-399.945', '98.298', '-90.952']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 24, X+U
+[ 90.32  0.64 -59.56 -0.36]
+Condition: 0
+Time step 25, joint angles and end-effector coordinates:
+cur:  ['90.323', '0.624', '-59.550', '-0.364'] ['-6.179', '-399.951', '98.283', '-90.874']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 25, X+U
+[ 89.80  0.73 -59.93 -0.37]
+Condition: 0
+Time step 26, joint angles and end-effector coordinates:
+cur:  ['89.806', '0.724', '-59.925', '-0.376'] ['-4.162', '-399.973', '98.187', '-90.583']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 26, X+U
+[ 89.28  0.66 -60.35 -0.16]
+Condition: 0
+Time step 27, joint angles and end-effector coordinates:
+cur:  ['89.290', '0.660', '-60.338', '-0.161'] ['-0.855', '-399.991', '98.031', '-90.153']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 27, X+U
+[ 88.90  0.50 -60.72  0.26]
+Condition: 0
+Time step 28, joint angles and end-effector coordinates:
+cur:  ['88.906', '0.501', '-60.709', '0.252'] ['2.943', '-399.983', '97.859', '-89.789']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 28, X+U
+[ 88.73  0.30 -61.05  0.73]
+Condition: 0
+Time step 29, joint angles and end-effector coordinates:
+cur:  ['88.728', '0.302', '-61.044', '0.727'] ['6.111', '-399.950', '97.704', '-89.658']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 29, X+U
+[ 88.74  0.13 -61.40  1.08]
+Condition: 0
+Time step 30, joint angles and end-effector coordinates:
+cur:  ['88.742', '0.137', '-61.393', '1.078'] ['7.957', '-399.919', '97.565', '-89.757']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 30, X+U
+[ 88.84  0.08 -61.79  1.21]
+Condition: 0
+Time step 31, joint angles and end-effector coordinates:
+cur:  ['88.837', '0.078', '-61.781', '1.208'] ['8.369', '-399.912', '97.420', '-89.956']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 31, X+U
+[ 88.94  0.14 -62.17  1.12]
+Condition: 0
+Time step 32, joint angles and end-effector coordinates:
+cur:  ['88.940', '0.138', '-62.158', '1.125'] ['7.881', '-399.922', '97.258', '-90.123']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 32, X+U
+[ 89.08  0.22 -62.40  0.89]
+Condition: 0
+Time step 33, joint angles and end-effector coordinates:
+cur:  ['89.077', '0.215', '-62.395', '0.887'] ['6.982', '-399.939', '97.101', '-90.202']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 33, X+U
+[ 89.30  0.15 -62.36  0.56]
+Condition: 0
+Time step 34, joint angles and end-effector coordinates:
+cur:  ['89.301', '0.154', '-62.351', '0.564'] ['5.789', '-399.957', '97.002', '-90.179']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 34, X+U
+[ 89.61 -0.11 -62.00  0.21]
+Condition: 0
+Time step 35, joint angles and end-effector coordinates:
+cur:  ['89.603', '-0.104', '-61.993', '0.215'] ['4.408', '-399.975', '97.021', '-90.019']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 35, X+U
+[ 89.92 -0.46 -61.49 -0.12]
+Condition: 0
+Time step 36, joint angles and end-effector coordinates:
+cur:  ['89.920', '-0.449', '-61.481', '-0.116'] ['3.090', '-399.988', '97.169', '-89.714']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 36, X+U
+[ 90.18 -0.68 -61.08 -0.38]
+Condition: 0
+Time step 37, joint angles and end-effector coordinates:
+cur:  ['90.173', '-0.670', '-61.072', '-0.378'] ['1.931', '-399.992', '97.383', '-89.355']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 37, X+U
+[ 90.30 -0.63 -60.94 -0.57]
+Condition: 0
+Time step 38, joint angles and end-effector coordinates:
+cur:  ['90.299', '-0.626', '-60.927', '-0.565'] ['0.843', '-399.992', '97.553', '-89.124']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 38, X+U
+[ 90.28 -0.31 -60.99 -0.74]
+Condition: 0
+Time step 39, joint angles and end-effector coordinates:
+cur:  ['90.282', '-0.313', '-60.977', '-0.741'] ['-0.174', '-399.994', '97.614', '-89.108']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 39, X+U
+[ 90.16  0.18 -61.01 -0.97]
+Condition: 0
+Time step 40, joint angles and end-effector coordinates:
+cur:  ['90.168', '0.166', '-61.005', '-0.970'] ['-1.015', '-399.997', '97.593', '-89.228']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 40, X+U
+[ 90.00  0.69 -60.86 -1.20]
+Condition: 0
+Time step 41, joint angles and end-effector coordinates:
+cur:  ['90.006', '0.675', '-60.855', '-1.207'] ['-1.682', '-399.996', '97.581', '-89.365']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 41, X+U
+[ 89.78  1.05 -60.58 -1.30]
+Condition: 0
+Time step 42, joint angles and end-effector coordinates:
+cur:  ['89.788', '1.041', '-60.575', '-1.300'] ['-2.102', '-399.988', '97.644', '-89.474']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 42, X+U
+[ 89.46  1.09 -60.36 -1.10]
+Condition: 0
+Time step 43, joint angles and end-effector coordinates:
+cur:  ['89.468', '1.085', '-60.351', '-1.111'] ['-1.701', '-399.980', '97.761', '-89.529']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 43, X+U
+[ 89.02  0.68 -60.34 -0.61]
+Condition: 0
+Time step 44, joint angles and end-effector coordinates:
+cur:  ['89.019', '0.686', '-60.330', '-0.611'] ['0.403', '-399.982', '97.854', '-89.442']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 44, X+U
+[ 88.54 -0.16 -60.50  0.04]
+Condition: 0
+Time step 45, joint angles and end-effector coordinates:
+cur:  ['88.540', '-0.145', '-60.495', '0.041'] ['4.757', '-399.965', '97.863', '-89.093']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 45, X+U
+[ 88.18 -1.24 -60.71  0.61]
+Condition: 0
+Time step 46, joint angles and end-effector coordinates:
+cur:  ['88.184', '-1.148', '-60.701', '0.605'] ['10.633', '-399.858', '97.794', '-88.437']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 46, X+U
+[ 88.03 -2.21 -60.85  0.91]
+Condition: 0
+Time step 47, joint angles and end-effector coordinates:
+cur:  ['88.021', '-2.171', '-60.840', '0.922'] ['16.194', '-399.652', '97.708', '-87.638']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 47, X+U
+[ 88.02 -2.77 -60.95  0.90]
+Condition: 0
+Time step 48, joint angles and end-effector coordinates:
+cur:  ['88.021', '-2.756', '-60.941', '0.902'] ['20.439', '-399.407', '97.650', '-86.771']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 48, X+U
+[ 88.05 -2.69 -61.13  0.58]
+Condition: 0
+Time step 49, joint angles and end-effector coordinates:
+cur:  ['88.050', '-2.691', '-61.116', '0.581'] ['22.218', '-399.268', '97.608', '-86.166']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 49, X+U
+[ 88.04 -2.05 -61.42  0.04]
+Condition: 0
+Time step 50, joint angles and end-effector coordinates:
+cur:  ['88.046', '-2.069', '-61.408', '0.041'] ['21.818', '-399.296', '97.535', '-85.940']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 50, X+U
+[ 88.09 -1.16 -61.72 -0.59]
+Condition: 0
+Time step 51, joint angles and end-effector coordinates:
+cur:  ['88.096', '-1.186', '-61.714', '-0.599'] ['19.952', '-399.438', '97.413', '-86.017']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 51, X+U
+[ 88.34 -0.32 -61.87 -1.17]
+Condition: 0
+Time step 52, joint angles and end-effector coordinates:
+cur:  ['88.344', '-0.335', '-61.861', '-1.170'] ['16.909', '-399.621', '97.286', '-86.311']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 52, X+U
+[ 88.83  0.32 -61.75 -1.50]
+Condition: 0
+Time step 53, joint angles and end-effector coordinates:
+cur:  ['88.826', '0.309', '-61.736', '-1.498'] ['12.581', '-399.800', '97.225', '-86.840']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 53, X+U
+[ 89.41  0.66 -61.39 -1.48]
+Condition: 0
+Time step 54, joint angles and end-effector coordinates:
+cur:  ['89.401', '0.653', '-61.377', '-1.485'] ['7.254', '-399.933', '97.277', '-87.637']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 54, X+U
+[ 89.87  0.66 -60.97 -1.13]
+Condition: 0
+Time step 55, joint angles and end-effector coordinates:
+cur:  ['89.871', '0.666', '-60.960', '-1.135'] ['2.182', '-399.988', '97.426', '-88.569']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 55, X+U
+[ 90.10  0.44 -60.68 -0.56]
+Condition: 0
+Time step 56, joint angles and end-effector coordinates:
+cur:  ['90.101', '0.442', '-60.668', '-0.557'] ['-1.135', '-399.992', '97.600', '-89.402']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 56, X+U
+[ 90.09  0.23 -60.54  0.06]
+Condition: 0
+Time step 57, joint angles and end-effector coordinates:
+cur:  ['90.089', '0.233', '-60.528', '0.058'] ['-2.055', '-399.992', '97.722', '-89.986']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 57, X+U
+[ 89.90  0.29 -60.41  0.51]
+Condition: 0
+Time step 58, joint angles and end-effector coordinates:
+cur:  ['89.904', '0.288', '-60.403', '0.508'] ['-1.333', '-399.997', '97.780', '-90.380']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 58, X+U
+[ 89.61  0.72 -60.15  0.64]
+Condition: 0
+Time step 59, joint angles and end-effector coordinates:
+cur:  ['89.615', '0.706', '-60.137', '0.631'] ['-0.213', '-399.999', '97.832', '-90.701']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 59, X+U
+[ 89.28  1.38 -59.73  0.39]
+Condition: 0
+Time step 60, joint angles and end-effector coordinates:
+cur:  ['89.285', '1.360', '-59.723', '0.382'] ['0.527', '-399.992', '97.943', '-90.953']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 60, X+U
+[ 88.98  2.01 -59.33 -0.14]
+Condition: 0
+Time step 61, joint angles and end-effector coordinates:
+cur:  ['88.990', '1.990', '-59.322', '-0.146'] ['0.838', '-399.971', '98.116', '-91.028']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 61, X+U
+[ 88.80  2.32 -59.14 -0.74]
+Condition: 0
+Time step 62, joint angles and end-effector coordinates:
+cur:  ['88.806', '2.314', '-59.126', '-0.743'] ['0.975', '-399.939', '98.282', '-90.833']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 62, X+U
+[ 88.75  2.13 -59.22 -1.17]
+Condition: 0
+Time step 63, joint angles and end-effector coordinates:
+cur:  ['88.748', '2.133', '-59.206', '-1.165'] ['1.266', '-399.918', '98.364', '-90.377']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 63, X+U
+[ 88.72  1.44 -59.49 -1.28]
+Condition: 0
+Time step 64, joint angles and end-effector coordinates:
+cur:  ['88.716', '1.455', '-59.480', '-1.275'] ['2.230', '-399.926', '98.331', '-89.715']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 64, X+U
+[ 88.57  0.52 -59.81 -1.12]
+Condition: 0
+Time step 65, joint angles and end-effector coordinates:
+cur:  ['88.561', '0.552', '-59.797', '-1.115'] ['4.522', '-399.943', '98.217', '-88.896']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 65, X+U
+[ 88.20 -0.21 -60.04 -0.86]
+Condition: 0
+Time step 66, joint angles and end-effector coordinates:
+cur:  ['88.215', '-0.132', '-60.025', '-0.855'] ['8.365', '-399.908', '98.084', '-87.996']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 66, X+U
+[ 87.69 -0.45 -60.08 -0.61]
+Condition: 0
+Time step 67, joint angles and end-effector coordinates:
+cur:  ['87.701', '-0.441', '-60.072', '-0.614'] ['12.879', '-399.792', '97.990', '-87.225']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 67, X+U
+[ 87.21 -0.25 -59.88 -0.41]
+Condition: 0
+Time step 68, joint angles and end-effector coordinates:
+cur:  ['87.216', '-0.255', '-59.873', '-0.418'] ['17.393', '-399.619', '97.970', '-86.646']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 68, X+U
+[ 86.96  0.19 -59.44 -0.22]
+Condition: 0
+Time step 69, joint angles and end-effector coordinates:
+cur:  ['86.964', '0.182', '-59.434', '-0.227'] ['20.207', '-399.488', '98.053', '-86.543']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 69, X+U
+[ 87.02  0.56 -58.90 -0.01]
+Condition: 0
+Time step 70, joint angles and end-effector coordinates:
+cur:  ['87.018', '0.551', '-58.890', '-0.013'] ['20.631', '-399.467', '98.236', '-86.920']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 70, X+U
+[ 87.29  0.65 -58.49  0.23]
+Condition: 0
+Time step 71, joint angles and end-effector coordinates:
+cur:  ['87.288', '0.645', '-58.481', '0.231'] ['19.130', '-399.538', '98.462', '-87.556']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 71, X+U
+[ 87.60  0.44 -58.43  0.54]
+Condition: 0
+Time step 72, joint angles and end-effector coordinates:
+cur:  ['87.599', '0.449', '-58.421', '0.545'] ['16.959', '-399.634', '98.633', '-88.164']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 72, X+U
+[ 87.84  0.09 -58.76  0.96]
+Condition: 0
+Time step 73, joint angles and end-effector coordinates:
+cur:  ['87.833', '0.102', '-58.746', '0.957'] ['15.382', '-399.701', '98.658', '-88.594']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 73, X+U
+[ 88.00 -0.18 -59.30  1.39]
+Condition: 0
+Time step 74, joint angles and end-effector coordinates:
+cur:  ['87.988', '-0.154', '-59.286', '1.380'] ['14.815', '-399.725', '98.522', '-88.892']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 74, X+U
+[ 88.20 -0.16 -59.79  1.69]
+Condition: 0
+Time step 75, joint angles and end-effector coordinates:
+cur:  ['88.200', '-0.162', '-59.784', '1.688'] ['14.515', '-399.736', '98.297', '-89.214']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 75, X+U
+[ 88.52  0.18 -60.05  1.72]
+Condition: 0
+Time step 76, joint angles and end-effector coordinates:
+cur:  ['88.519', '0.178', '-60.038', '1.719'] ['13.060', '-399.786', '98.090', '-89.726']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 76, X+U
+[ 88.88  0.66 -60.01  1.47]
+Condition: 0
+Time step 77, joint angles and end-effector coordinates:
+cur:  ['88.884', '0.648', '-60.005', '1.470'] ['9.797', '-399.880', '97.984', '-90.415']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 77, X+U
+[ 89.13  0.91 -59.80  1.04]
+Condition: 0
+Time step 78, joint angles and end-effector coordinates:
+cur:  ['89.129', '0.907', '-59.789', '1.044'] ['5.808', '-399.952', '97.998', '-91.003']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 78, X+U
+[ 89.14  0.77 -59.58  0.57]
+Condition: 0
+Time step 79, joint angles and end-effector coordinates:
+cur:  ['89.140', '0.773', '-59.571', '0.574'] ['3.307', '-399.974', '98.088', '-91.080']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 79, X+U
+[ 88.97  0.34 -59.51  0.14]
+Condition: 0
+Time step 80, joint angles and end-effector coordinates:
+cur:  ['88.973', '0.350', '-59.499', '0.146'] ['3.643', '-399.974', '98.179', '-90.487']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 80, X+U
+[ 88.81 -0.15 -59.57 -0.26]
+Condition: 0
+Time step 81, joint angles and end-effector coordinates:
+cur:  ['88.806', '-0.130', '-59.562', '-0.247'] ['6.104', '-399.952', '98.209', '-89.468']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 81, X+U
+[ 88.78 -0.57 -59.60 -0.71]
+Condition: 0
+Time step 82, joint angles and end-effector coordinates:
+cur:  ['88.775', '-0.537', '-59.586', '-0.678'] ['8.731', '-399.904', '98.183', '-88.428']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 82, X+U
+[ 88.87 -0.91 -59.42 -1.20]
+Condition: 0
+Time step 83, joint angles and end-effector coordinates:
+cur:  ['88.867', '-0.898', '-59.411', '-1.187'] ['10.194', '-399.866', '98.172', '-87.559']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 83, X+U
+[ 88.94 -1.15 -59.07 -1.61]
+Condition: 0
+Time step 84, joint angles and end-effector coordinates:
+cur:  ['88.938', '-1.144', '-59.058', '-1.602'] ['10.653', '-399.846', '98.246', '-86.782']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 84, X+U
+[ 88.86 -1.13 -58.73 -1.76]
+Condition: 0
+Time step 85, joint angles and end-effector coordinates:
+cur:  ['88.863', '-1.127', '-58.721', '-1.759'] ['10.907', '-399.832', '98.392', '-86.191']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 85, X+U
+[ 88.67 -0.69 -58.59 -1.64]
+Condition: 0
+Time step 86, joint angles and end-effector coordinates:
+cur:  ['88.670', '-0.701', '-58.581', '-1.648'] ['11.376', '-399.819', '98.533', '-85.978']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 86, X+U
+[ 88.52  0.09 -58.69 -1.41]
+Condition: 0
+Time step 87, joint angles and end-effector coordinates:
+cur:  ['88.544', '0.018', '-58.685', '-1.447'] ['11.428', '-399.829', '98.591', '-86.321']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 87, X+U
+[ 88.63  0.88 -58.97 -1.24]
+Condition: 0
+Time step 88, joint angles and end-effector coordinates:
+cur:  ['88.637', '0.849', '-58.958', '-1.257'] ['10.105', '-399.872', '98.548', '-87.118']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 88, X+U
+[ 89.02  1.36 -59.30 -1.15]
+Condition: 0
+Time step 89, joint angles and end-effector coordinates:
+cur:  ['89.021', '1.348', '-59.294', '-1.153'] ['6.923', '-399.929', '98.434', '-88.230']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 89, X+U
+[ 89.59  1.34 -59.65 -1.11]
+Condition: 0
+Time step 90, joint angles and end-effector coordinates:
+cur:  ['89.590', '1.341', '-59.641', '-1.104'] ['2.716', '-399.964', '98.294', '-89.216']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 90, X+U
+[ 90.17  0.98 -60.02 -1.09]
+Condition: 0
+Time step 91, joint angles and end-effector coordinates:
+cur:  ['90.165', '0.986', '-60.015', '-1.088'] ['-1.236', '-399.971', '98.150', '-89.827']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 91, X+U
+[ 90.61  0.59 -60.45 -1.14]
+Condition: 0
+Time step 92, joint angles and end-effector coordinates:
+cur:  ['90.603', '0.596', '-60.442', '-1.135'] ['-4.165', '-399.964', '97.994', '-90.064']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 92, X+U
+[ 90.84  0.42 -60.89 -1.27]
+Condition: 0
+Time step 93, joint angles and end-effector coordinates:
+cur:  ['90.836', '0.422', '-60.881', '-1.270'] ['-6.031', '-399.949', '97.816', '-90.064']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 93, X+U
+[ 90.88  0.53 -61.23 -1.43]
+Condition: 0
+Time step 94, joint angles and end-effector coordinates:
+cur:  ['90.876', '0.527', '-61.218', '-1.433'] ['-7.121', '-399.934', '97.633', '-89.987']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 94, X+U
+[ 90.77  0.83 -61.38 -1.52]
+Condition: 0
+Time step 95, joint angles and end-effector coordinates:
+cur:  ['90.768', '0.821', '-61.366', '-1.519'] ['-7.723', '-399.921', '97.492', '-89.970']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 95, X+U
+[ 90.52  1.16 -61.37 -1.48]
+Condition: 0
+Time step 96, joint angles and end-effector coordinates:
+cur:  ['90.521', '1.156', '-61.365', '-1.485'] ['-7.867', '-399.913', '97.431', '-90.070']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 96, X+U
+[ 90.13  1.40 -61.37 -1.40]
+Condition: 0
+Time step 97, joint angles and end-effector coordinates:
+cur:  ['90.142', '1.385', '-61.361', '-1.412'] ['-7.166', '-399.916', '97.431', '-90.192']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 97, X+U
+[ 89.66  1.46 -61.50 -1.43]
+Condition: 0
+Time step 98, joint angles and end-effector coordinates:
+cur:  ['89.664', '1.459', '-61.488', '-1.432'] ['-5.220', '-399.937', '97.433', '-90.115']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 98, X+U
+[ 89.14  1.40 -61.90 -1.80]
+Condition: 0
+Time step 99, joint angles and end-effector coordinates:
+cur:  ['89.148', '1.398', '-61.889', '-1.800'] ['-2.111', '-399.963', '97.380', '-89.691']
+tgt:  [-30.07  49.40 -55.19 -19.22] [ 360.00  60.00  100.00 -0.00]
+zx, tgt_noise.shape = (4,)
+zx, xp_cur.shape = (8,)
+zx, enter act
+zx, u_cur.shape = (4,)
+Time step 99, X+U
+[ 88.08  1.43 -63.35 -3.49]
+Linear Gaussian Policy

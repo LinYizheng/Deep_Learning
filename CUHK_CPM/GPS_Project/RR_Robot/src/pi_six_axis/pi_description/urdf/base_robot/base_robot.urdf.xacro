@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+
+<robot
+  name="pi" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!--step1: define the variable parameters  -->
+  <xacro:property name="PI" value="3.1415926535897931"/>
+  <xacro:property name="table_mass" value="1000"/>  
+  <xacro:property name="base_mass" value="14.35368680"/>
+  <xacro:property name="mass_1" value="9.05960472320052"/>
+  <xacro:property name="mass_2" value="8.44545558966891"/>
+  <xacro:property name="mass_3" value="3.78434093354884"/>
+  <xacro:property name="mass_4" value="3.54435947993668"/>
+  <xacro:property name="mass_5" value="1.37811744"/>
+  <xacro:property name="mass_6" value="0.13048535"/>
+  <xacro:property name="table_x" value="0.8"/> 
+  <xacro:property name="table_y" value="0.8"/>
+  <xacro:property name="table_z" value="0.63"/>
+  <xacro:property name="tLim400W" value="3000"/>
+  <xacro:property name="tLim100W" value="2000"/>
+  <xacro:property name="rpm400W" value="5000"/>
+  <xacro:property name="rpm100W" value="3000"/>
+  <xacro:property name="J1_max" value="180.0"/>
+  <xacro:property name="J1_min" value="-180.0"/>
+  <xacro:property name="J2_max" value="126.05"/>
+  <xacro:property name="J2_min" value="-51.56"/>
+  <xacro:property name="J3_max" value="34.37"/>
+  <xacro:property name="J3_min" value="-206.26"/>
+  <xacro:property name="J4_max" value="180.0"/>
+  <xacro:property name="J4_min" value="-180"/>
+  <xacro:property name="J5_max" value="100.0"/>
+  <xacro:property name="J5_min" value="-100.0"/>
+  <xacro:property name="J6_max" value="360.0"/>
+  <xacro:property name="J6_min" value="-360.0"/>
+  <!-- Import all Gazebo-customization elements, including Gazebo colors -->
+  <xacro:include filename="$(find pi_description)/urdf/base_robot/base_robot.gazebo.xacro" />
+  <xacro:include filename="$(find pi_description)/urdf/materials.urdf.xacro" />
+ 
+
+ <xacro:macro name="base_urdf"> 
+  <link name="world"/>
+  
+    <joint name="fixed0" type="fixed">
+    <origin xyz="0 0 ${table_z}" rpy="0 0 0" />
+    <parent link="world"/>
+    <child link="table"/>
+  </joint>
+
+
+  <link name="table">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0" /> 
+        <mass value="${table_mass}" />
+        <inertia
+          ixx="${table_mass/12 * (table_z*table_z + table_y*table_y)}"
+          ixy="0.0"
+          ixz="0.0"
+          iyy="${table_mass/12 * (table_z*table_z + table_x*table_x)}"
+          iyz="0.0"
+          izz="${table_mass/12 * (table_x*table_x + table_y*table_y)}" />
+      </inertial>
+
+      <visual>
+        <origin xyz="${-table_x/2 + 0.1} 0 ${-table_z/2}" rpy="0 0 0" />
+        <geometry>
+          <box size="${table_x} ${table_y} ${table_z}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual> 
+
+      <collision>
+        <origin
+          xyz="${-table_x/2 + 0.1} 0 ${-table_z/2}" rpy="0 0 0" />
+        <geometry>
+          <box size="${table_x} ${table_y} ${table_z}"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="fixed1" type="fixed">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <parent link="table"/>
+      <child link="base_link"/>
+    </joint>
+  <link name="base_link">
+
+    <inertial>
+      <origin xyz="-0.03384704 0 0.11175" rpy="0 0 0" /> 
+      <mass value="${base_mass}" />
+      <inertia
+        ixx="0.07954002"
+        ixy="0.00014829"
+        ixz="0.02350667"
+        iyy="0.11705921"
+        iyz="0.00028791"
+        izz="0.07791483" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/base_link.STL" />
+      </geometry>
+      <material name="orange"/>
+    </visual> 
+
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pi_description/meshes/base_robot/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="J1" type="revolute">
+    <origin xyz="0 0 0.2165" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="link_1" />
+    <axis xyz="0 0 1" />
+    <dynamics damping="2"/>
+    <limit effort="${tLim400W}" velocity="${2*PI*rpm400W/60}" upper="${J1_max/180.0*PI}" lower="${J1_min/180.0*PI}" />
+  </joint>
+
+  <link name="link_1">
+    <inertial>
+      <origin xyz="0.03782108 0.01898971 0.10151288" rpy="0 0 0" />
+      <mass value="${mass_1}" />
+      <inertia
+        ixx="0.04499762"
+        ixy="0.00648926"
+        ixz="0.01733205"
+        iyy="0.04930747"
+        iyz="0.00699032"
+        izz="0.04418632" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_1.STL" />
+      </geometry>
+      <material name="white"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="J2" type="revolute">
+    <origin xyz="0.0884 0 0.15339" rpy="0 0 0" />
+    <parent link="link_1" />
+    <child  link="link_2" />
+    <axis xyz="0 1 0" />
+    <dynamics damping="2"/>
+    <dynamics friction="0.7"/>
+    <limit effort="${tLim400W}" velocity="${2*PI*rpm400W/60}" upper="${J2_max/180.0*PI}" lower="${J2_min/180.0*PI}" />
+  </joint>
+
+  <link name="link_2">
+    <inertial>
+      <origin xyz=" 0.00037973 0.01463596  0.14110632" rpy="0 0 0" />
+      <mass value="${mass_2}" />
+      <inertia
+        ixx="0.08725021"
+        ixy="-0.00013077"
+        ixz="-0.00011492"
+        iyy="0.07314022"
+        iyz="0.01268936"
+        izz="0.02609127" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_2.STL" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_2.STL" />
+      </geometry>
+    </collision>
+  
+  </link>
+
+  
+  <joint name="J3" type="revolute">
+    <origin xyz="0 0 0.26" rpy="0 0 0" />
+    <parent link="link_2" />
+    <child link="link_3" />
+    <axis xyz="0 1 0" />
+    <dynamics damping="2"/>
+    <dynamics friction="0.7"/>
+    <limit effort="${tLim400W}" velocity="${2*PI*rpm400W/60}"  upper="${J3_max/180.0*PI}" lower="${J3_min/180.0*PI}" />
+  </joint>
+
+
+  <link name="link_3">
+    <inertial>
+      <origin xyz="0.03374938 -0.00089390  -0.01443372" rpy="0 0 0" />
+      <mass value="${mass_3}" />
+      <inertia
+        ixx="0.00780439"
+        ixy="0.00017321"
+        ixz="0.00211938"
+        iyy="0.01381789"
+        iyz="-0.00003661"
+        izz="0.01208117" />
+    </inertial>
+
+    <visual>
+      <origin xyz="-0.06 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_3.STL" />
+      </geometry>
+      <material name="white"/>
+    </visual>
+
+    <collision>
+      <origin xyz="-0.06 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pi_description/meshes/base_robot/link_3.STL" />
+      </geometry>
+    </collision>
+
+  </link>
+
+
+  <joint name="J4" type="revolute">
+    <origin xyz="0.136 0 0" rpy="0 0 0" />
+    <parent link="link_3" />
+    <child link="link_4" />
+    <axis xyz="1 0 0" />
+    <dynamics damping="2"/>
+    <dynamics friction="0.7"/>
+    <limit effort="${tLim100W}" velocity="${2*PI*rpm100W/60}" upper="${J4_max/180.0*PI}" lower="${J4_min/180.0*PI}" />
+  </joint>
+
+
+  <link name="link_4">
+    <inertial>
+      <origin xyz="0.03079792 -0.00235658 0.00116401" rpy="0 0 0" />
+      <mass value="${mass_4}" />
+      <inertia
+        ixx="0.00539089"
+        ixy="-0.00042139"
+        ixz="-0.00023156"
+        iyy="0.01103474"
+        iyz="0.00023749"
+        izz="0.01128169" />
+    </inertial>
+
+    <visual>
+      <origin xyz="-0.06 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_4.STL" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="-0.06 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+
+  <joint name="J5" type="revolute">
+    <origin xyz="0.105 0 0" rpy="0 0 0" />
+    <parent link="link_4" />
+    <child link="link_5" />
+    <axis xyz="0 1 0" />
+    <limit effort="${tLim100W}" velocity="${2*PI*rpm100W/60}" upper="${J5_max/180.0*PI}" lower="${J5_min/180.0*PI}" />
+  </joint> 
+
+
+  <link name="link_5">
+    <inertial>
+      <origin xyz=" 0.03936521 0.00086589 -0.00054972" rpy="0 0 0" />
+      <mass value="${mass_5}" />
+      <inertia
+        ixx="0.00093428486"
+        ixy="-4.724046E-05"
+        ixz="4.7174488E-07"
+        iyy="0.0019708145"
+        iyz="-2.1586564E-07"
+        izz="0.0018400146" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_5.STL" />
+      </geometry>
+      <material name="white"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+
+  <joint name="J6" type="revolute">
+    <origin xyz="0.0725 0 0" rpy="0 0 0" />
+    <parent link="link_5" />
+    <child link="link_6" />
+    <axis xyz="1 0 0" />
+    <limit effort="${tLim100W}" velocity="${2*PI*rpm100W/60}" upper="${J6_max/180.0*PI}" lower="${J6_min/180.0*PI}" />
+  </joint> 
+
+  <link name="link_6">
+    <inertial>
+      <origin xyz="0.01004134 5.1401544E-05 -0.03576E-03" rpy="0 0 0" />
+      <mass value="${mass_6}" />
+      <inertia
+        ixx="0.00010825691"
+        ixy="-1.3134597E-08"
+        ixz="-2.3228633E-08"
+        iyy="5.6120147E-05"
+        iyz="-2.1274058E-08"
+        izz="5.6077018E-05" />
+    </inertial>
+
+    <visual>
+      <origin xyz="0.0165 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_6.STL" />
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0.0165 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://pi_description/meshes/base_robot/link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <!-- import.gazebo -->
+  <!-- <xacro:base_gazebo/> -->
+  <xacro:base_gazebo_angle_control/>
+</xacro:macro>
+</robot> 

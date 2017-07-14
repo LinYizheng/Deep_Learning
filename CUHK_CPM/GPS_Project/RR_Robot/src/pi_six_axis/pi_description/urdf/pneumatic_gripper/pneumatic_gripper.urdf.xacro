@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:joint="http://playerstage.sourceforge.net/gazebo/xmlschema/#slider"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find pi_description)//urdf/pneumatic_gripper/pneumatic_gripper.gazebo.xacro" />
+  <property name="M_PI" value="3.1415926535897931" />
+  <property name="gripper_base_mass" value="0.03" />
+  <property name="gripper_base_length" value="0.06" />
+  <property name="gripper_base_radius" value="0.01" />
+
+  <property name="suction_cup_mass" value="0.01" />
+  <property name="suction_cup_length" value="0.02" />
+  <property name="suction_cup_radius" value="0.005" />
+
+  <xacro:macro name="pneumatic_gripper_urdf" params="parent *origin">
+    <joint name="pneumatic_gripper_joint" type="fixed">
+        <insert_block name="origin"/>
+        <parent link="${parent}" />
+        <child link="gripper_base" />
+      </joint> 
+
+        <link name="gripper_base">
+     
+        <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="${gripper_base_mass}" />
+          <inertia
+            ixx="${gripper_base_mass * (gripper_base_radius*gripper_base_radius / 4.0 + gripper_base_length*gripper_base_length / 12.0)}"
+            ixy="0"
+            ixz="0"
+            iyy="${gripper_base_mass * (gripper_base_radius*gripper_base_radius / 4.0 + gripper_base_length*gripper_base_length / 12.0)}"
+            iyz="0"
+            izz="${gripper_base_mass/2.0 * gripper_base_radius*gripper_base_radius}" />
+        </inertial>
+
+        <visual>
+        	<!-- <origin xyz="0 0 ${-gripper_base_length/2}" rpy="0 0 0" /> -->
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+          	<!-- <cylinder length="${gripper_base_length}" radius="${gripper_base_radius}"/> -->
+            <mesh filename="package://pi_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE" />
+          </geometry>
+          <material name="orange"/>
+        </visual>
+
+        <collision>
+          <origin xyz="0 0 ${-gripper_base_length/2}" rpy="0 0 0" />
+          <geometry>
+              <cylinder length="${gripper_base_length}" radius="${gripper_base_radius}"/> 
+          </geometry>
+        </collision>
+      </link>
+
+      <joint name="suction_cup_joint" type="fixed">
+          <origin xyz="0 0 ${-gripper_base_length}" rpy="0 0 0" />
+          <parent link="gripper_base" />
+          <child link="suction_cup" />
+        </joint> 
+      <link name="suction_cup">
+
+        <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="${suction_cup_mass}" />
+          <inertia
+            ixx="${suction_cup_mass * (suction_cup_radius*suction_cup_radius / 4.0 + suction_cup_length*suction_cup_length / 12.0)}"
+            ixy="0"
+            ixz="0"
+            iyy="${suction_cup_mass * (suction_cup_radius*suction_cup_radius / 4.0 + suction_cup_length*suction_cup_length / 12.0)}"
+            iyz="0"
+            izz="${suction_cup_mass/2.0 * suction_cup_radius*suction_cup_radius}" />
+        </inertial>
+
+        <collision>
+          <origin xyz="0 0 ${-suction_cup_length/2}" rpy="0 0 0" />
+          <geometry>
+              <cylinder length="${suction_cup_length}" radius="${suction_cup_radius}"/> 
+          </geometry>
+        </collision>
+      </link>
+
+      <!-- add plugin -->
+      <xacro:pneumatic_gripper_gazebo />
+      <xacro:pneumatic_gripper_plugin/>
+    </xacro:macro>
+
+</robot>

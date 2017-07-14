@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="object_gazebo" params="link_name">
+    <gazebo reference="${link_name}">
+      <material>Gazebo/DarkGrey</material>
+    </gazebo>
+     <gazebo>
+    <plugin name="ground_truth" filename="libobject_position.so">
+    	<Link_name>${link_name}</Link_name>
+    </plugin>
+  </gazebo>
+  </xacro:macro>
+
+</robot>

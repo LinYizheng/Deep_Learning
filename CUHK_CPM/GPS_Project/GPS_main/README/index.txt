@@ -1,0 +1,11 @@
+============================
+ Guided Policy Search (GPS) 
+============================
+Chelsea Finn & her lab & Pei-Chi Huang
+
+This code is a reimplementation of the guided policy search algorithm and LQG-based trajectory optimization.
+
+## Relevant work
+1. Sergey Levine\*, Chelsea Finn\*, Trevor Darrell, Pieter Abbeel. *End-to-End Training of Deep Visuomotor Policies*. 2015. arxiv 1504.00702. [[pdf](http://arxiv.org/pdf/1504.00702.pdf)]
+2. Sergey Levine, Nolan Wagener, Pieter Abbeel. *Learning Contact-Rich Manipulation Skills with Guided Policy Search*. ICRA 2015. [[pdf](http://rll.berkeley.edu/icra2015gps/robotgps.pdf)]
+3. Sergey Levine, Pieter Abbeel. *Learning Neural Network Policies with Guided Policy Search under Unknown Dynamics*. NIPS 2014. [[pdf](http://www.eecs.berkeley.edu/~svlevine/papers/mfcgps.pdf)]

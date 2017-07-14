@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PASS_WRD=$1
+echo $PASS_WRD | sudo -S echo "begin"
+sudo ps -ef | awk '/RT_Com_Module_6/ && !/awk/ {print $2}' | sudo -S xargs -r kill -9
+sudo ps -ef | awk '/SixAxisRobotControlGUI/ && !/awk/ {print $2}' | sudo -S xargs -r kill -9  
+ps -ef | awk '/ros/ && !/awk/ {print $2}' | xargs -r kill -9
+ps -ef | awk '/gzserver/ && !/awk/ {print $2}' | xargs -r kill -9
+ps -ef | awk '/gzclient/ && !/awk/ {print $2}' | xargs -r kill -9
+ps -ef | awk '/controller_manager/ && !/awk/ {print $2}' | xargs -r kill -9
+ps -ef | awk '/run_kent/ && !/awk/ {print $2}' | xargs -r kill -9
+echo "down"
+#echo $PASS_WRD | sudo -S ps -ef | awk '/SixAxisRobotControlGUI/ && !/awk/ {print $2}' | xargs -r kill -9
+

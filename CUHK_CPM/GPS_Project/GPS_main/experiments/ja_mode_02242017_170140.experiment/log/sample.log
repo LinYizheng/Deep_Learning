@@ -1,0 +1,2134 @@
+Iteration 0 condition 0 sample 0
+Linear Gaussian Policy
+Initial state:
+[ 89.89  0.97 -60.48  0.00]
+Target state:
+[-30.07  49.40 -55.19 -19.22]
+[ 360.00  60.00  100.00 -0.00]
+Condition: 0
+Time step 0, joint angles:
+['89.895', '0.974', '-60.482', '0.000']
+Time step 0, end-effector coordinates:
+['399.786', '5.069', '123.997', '5.207']
+Time step 0, X+U
+[ 92.08  0.89 -59.29  1.87]
+Condition: 0
+Time step 1, joint angles:
+['91.691', '0.968', '-59.326', '1.639']
+Time step 1, end-effector coordinates:
+['0.485', '-399.983', '97.821', '-90.559']
+Time step 1, X+U
+[ 92.52  0.91 -58.96  2.19]
+Condition: 0
+Time step 2, joint angles:
+['92.482', '0.920', '-58.947', '2.180']
+Time step 2, end-effector coordinates:
+['-14.865', '-399.710', '98.282', '-94.324']
+Time step 2, X+U
+[ 92.42  0.91 -58.96  1.88]
+Condition: 0
+Time step 3, joint angles:
+['92.418', '0.910', '-58.954', '1.891']
+Time step 3, end-effector coordinates:
+['-20.135', '-399.480', '98.439', '-95.583']
+Time step 3, X+U
+[ 92.00  0.92 -59.11  1.20]
+Condition: 0
+Time step 4, joint angles:
+['92.015', '0.915', '-59.100', '1.226']
+Time step 4, end-effector coordinates:
+['-19.656', '-399.504', '98.436', '-95.220']
+Time step 4, X+U
+[ 91.57  0.90 -59.30  0.49]
+Condition: 0
+Time step 5, joint angles:
+['91.593', '0.900', '-59.289', '0.514']
+Time step 5, end-effector coordinates:
+['-16.853', '-399.632', '98.375', '-94.154']
+Time step 5, X+U
+[ 91.32  0.84 -59.54  0.00]
+Condition: 0
+Time step 6, joint angles:
+['91.326', '0.840', '-59.529', '0.017']
+Time step 6, end-effector coordinates:
+['-13.867', '-399.747', '98.296', '-93.007']
+Time step 6, X+U
+[ 91.21  0.73 -59.89 -0.13]
+Condition: 0
+Time step 7, joint angles:
+['91.214', '0.734', '-59.877', '-0.129']
+Time step 7, end-effector coordinates:
+['-11.819', '-399.815', '98.196', '-92.182']
+Time step 7, X+U
+[ 91.10  0.59 -60.38  0.06]
+Condition: 0
+Time step 8, joint angles:
+['91.097', '0.597', '-60.371', '0.058']
+Time step 8, end-effector coordinates:
+['-10.713', '-399.848', '98.051', '-91.818']
+Time step 8, X+U
+[ 90.79  0.43 -61.00  0.47]
+Condition: 0
+Time step 9, joint angles:
+['90.797', '0.438', '-60.992', '0.464']
+Time step 9, end-effector coordinates:
+['-9.482', '-399.882', '97.845', '-91.752']
+Time step 9, X+U
+[ 90.24  0.26 -61.66  0.96]
+Condition: 0
+Time step 10, joint angles:
+['90.263', '0.265', '-61.645', '0.941']
+Time step 10, end-effector coordinates:
+['-6.901', '-399.938', '97.587', '-91.700']
+Time step 10, X+U
+[ 89.56  0.09 -62.20  1.34]
+Condition: 0
+Time step 11, joint angles:
+['89.591', '0.097', '-62.185', '1.323']
+Time step 11, end-effector coordinates:
+['-2.647', '-399.990', '97.315', '-91.470']
+Time step 11, X+U
+[ 88.94 -0.03 -62.50  1.45]
+Condition: 0
+Time step 12, joint angles:
+['88.963', '-0.029', '-62.490', '1.441']
+Time step 12, end-effector coordinates:
+['2.568', '-399.992', '97.089', '-91.010']
+Time step 12, X+U
+[ 88.54 -0.08 -62.55  1.20]
+Condition: 0
+Time step 13, joint angles:
+['88.554', '-0.077', '-62.543', '1.207']
+Time step 13, end-effector coordinates:
+['7.330', '-399.933', '96.962', '-90.375']
+Time step 13, X+U
+[ 88.44 -0.04 -62.45  0.68]
+Condition: 0
+Time step 14, joint angles:
+['88.442', '-0.043', '-62.437', '0.689']
+Time step 14, end-effector coordinates:
+['10.333', '-399.866', '96.941', '-89.683']
+Time step 14, X+U
+[ 88.57  0.05 -62.28  0.07]
+Condition: 0
+Time step 15, joint angles:
+['88.565', '0.041', '-62.273', '0.085']
+Time step 15, end-effector coordinates:
+['11.007', '-399.848', '96.985', '-89.088']
+Time step 15, X+U
+[ 88.81  0.12 -62.07 -0.41]
+Condition: 0
+Time step 16, joint angles:
+['88.798', '0.121', '-62.058', '-0.400']
+Time step 16, end-effector coordinates:
+['9.894', '-399.878', '97.053', '-88.691']
+Time step 16, X+U
+[ 89.04  0.18 -61.74 -0.69]
+Condition: 0
+Time step 17, joint angles:
+['89.038', '0.176', '-61.730', '-0.682']
+Time step 17, end-effector coordinates:
+['8.019', '-399.919', '97.142', '-88.519']
+Time step 17, X+U
+[ 89.22  0.26 -61.28 -0.81]
+Condition: 0
+Time step 18, joint angles:
+['89.218', '0.258', '-61.273', '-0.812']
+Time step 18, end-effector coordinates:
+['6.179', '-399.952', '97.279', '-88.531']
+Time step 18, X+U
+[ 89.32  0.50 -60.77 -0.88]
+Condition: 0
+Time step 19, joint angles:
+['89.324', '0.487', '-60.762', '-0.881']
+Time step 19, end-effector coordinates:
+['4.668', '-399.972', '97.470', '-88.664']
+Time step 19, X+U
+[ 89.38  0.98 -60.32 -0.87]
+Condition: 0
+Time step 20, joint angles:
+['89.385', '0.948', '-60.307', '-0.880']
+Time step 20, end-effector coordinates:
+['3.230', '-399.983', '97.683', '-88.930']
+Time step 20, X+U
+[ 89.45  1.66 -60.00 -0.68]
+Condition: 0
+Time step 21, joint angles:
+['89.459', '1.601', '-59.996', '-0.705']
+Time step 21, end-effector coordinates:
+['1.398', '-399.984', '97.872', '-89.454']
+Time step 21, X+U
+[ 89.59  2.34 -59.89 -0.25]
+Condition: 0
+Time step 22, joint angles:
+['89.594', '2.290', '-59.876', '-0.287']
+Time step 22, end-effector coordinates:
+['-1.118', '-399.960', '98.002', '-90.358']
+Time step 22, X+U
+[ 89.81  2.84 -59.97  0.31]
+Condition: 0
+Time step 23, joint angles:
+['89.807', '2.802', '-59.956', '0.278']
+Time step 23, end-effector coordinates:
+['-4.158', '-399.900', '98.051', '-91.597']
+Time step 23, X+U
+[ 90.10  3.07 -60.18  0.82]
+Condition: 0
+Time step 24, joint angles:
+['90.093', '3.054', '-60.174', '0.799']
+Time step 24, end-effector coordinates:
+['-7.208', '-399.817', '98.018', '-92.887']
+Time step 24, X+U
+[ 90.42  3.11 -60.41  1.14]
+Condition: 0
+Time step 25, joint angles:
+['90.412', '3.111', '-60.399', '1.129']
+Time step 25, end-effector coordinates:
+['-9.972', '-399.736', '97.927', '-93.946']
+Time step 25, X+U
+[ 90.70  3.11 -60.49  1.28]
+Condition: 0
+Time step 26, joint angles:
+['90.687', '3.113', '-60.481', '1.279']
+Time step 26, end-effector coordinates:
+['-12.375', '-399.663', '97.834', '-94.653']
+Time step 26, X+U
+[ 90.86  3.12 -60.37  1.40]
+Condition: 0
+Time step 27, joint angles:
+['90.857', '3.123', '-60.358', '1.395']
+Time step 27, end-effector coordinates:
+['-14.298', '-399.599', '97.800', '-95.080']
+Time step 27, X+U
+[ 90.90  3.05 -60.13  1.62]
+Condition: 0
+Time step 28, joint angles:
+['90.897', '3.055', '-60.120', '1.618']
+Time step 28, end-effector coordinates:
+['-15.510', '-399.553', '97.851', '-95.375']
+Time step 28, X+U
+[ 90.83  2.76 -59.96  1.98]
+Condition: 0
+Time step 29, joint angles:
+['90.828', '2.775', '-59.949', '1.980']
+Time step 29, end-effector coordinates:
+['-15.580', '-399.556', '97.950', '-95.570']
+Time step 29, X+U
+[ 90.68  2.25 -59.99  2.38]
+Condition: 0
+Time step 30, joint angles:
+['90.680', '2.279', '-59.982', '2.382']
+Time step 30, end-effector coordinates:
+['-14.248', '-399.631', '98.021', '-95.583']
+Time step 30, X+U
+[ 90.48  1.69 -60.24  2.65]
+Condition: 0
+Time step 31, joint angles:
+['90.481', '1.729', '-60.227', '2.656']
+Time step 31, end-effector coordinates:
+['-11.706', '-399.751', '98.008', '-95.342']
+Time step 31, X+U
+[ 90.26  1.29 -60.58  2.65]
+Condition: 0
+Time step 32, joint angles:
+['90.263', '1.314', '-60.574', '2.654']
+Time step 32, end-effector coordinates:
+['-8.633', '-399.862', '97.905', '-94.865']
+Time step 32, X+U
+[ 90.06  1.12 -60.88  2.35]
+Condition: 0
+Time step 33, joint angles:
+['90.067', '1.125', '-60.871', '2.356']
+Time step 33, end-effector coordinates:
+['-5.848', '-399.931', '97.761', '-94.231']
+Time step 33, X+U
+[ 89.93  1.12 -61.04  1.91]
+Condition: 0
+Time step 34, joint angles:
+['89.934', '1.119', '-61.026', '1.917']
+Time step 34, end-effector coordinates:
+['-3.905', '-399.962', '97.637', '-93.548']
+Time step 34, X+U
+[ 89.87  1.19 -61.07  1.56]
+Condition: 0
+Time step 35, joint angles:
+['89.876', '1.186', '-61.062', '1.566']
+Time step 35, end-effector coordinates:
+['-2.956', '-399.970', '97.572', '-92.970']
+Time step 35, X+U
+[ 89.87  1.22 -61.08  1.41]
+Condition: 0
+Time step 36, joint angles:
+['89.869', '1.218', '-61.067', '1.416']
+Time step 36, end-effector coordinates:
+['-2.759', '-399.969', '97.557', '-92.628']
+Time step 36, X+U
+[ 89.85  1.15 -61.11  1.36]
+Condition: 0
+Time step 37, joint angles:
+['89.854', '1.154', '-61.098', '1.362']
+Time step 37, end-effector coordinates:
+['-2.803', '-399.968', '97.556', '-92.503']
+Time step 37, X+U
+[ 89.80  1.03 -61.15  1.18]
+Condition: 0
+Time step 38, joint angles:
+['89.799', '1.033', '-61.141', '1.180']
+Time step 38, end-effector coordinates:
+['-2.507', '-399.972', '97.543', '-92.369']
+Time step 38, X+U
+[ 89.72  0.98 -61.16  0.75]
+Condition: 0
+Time step 39, joint angles:
+['89.723', '0.985', '-61.152', '0.764']
+Time step 39, end-effector coordinates:
+['-1.751', '-399.980', '97.524', '-92.012']
+Time step 39, X+U
+[ 89.68  1.11 -61.12  0.20]
+Condition: 0
+Time step 40, joint angles:
+['89.679', '1.099', '-61.108', '0.212']
+Time step 40, end-effector coordinates:
+['-1.075', '-399.984', '97.520', '-91.472']
+Time step 40, X+U
+[ 89.70  1.32 -61.05 -0.28]
+Condition: 0
+Time step 41, joint angles:
+['89.706', '1.301', '-61.040', '-0.267']
+Time step 41, end-effector coordinates:
+['-1.113', '-399.980', '97.538', '-90.989']
+Time step 41, X+U
+[ 89.81  1.39 -61.03 -0.55]
+Condition: 0
+Time step 42, joint angles:
+['89.810', '1.389', '-61.022', '-0.541']
+Time step 42, end-effector coordinates:
+['-1.921', '-399.970', '97.567', '-90.740']
+Time step 42, X+U
+[ 89.94  1.18 -61.13 -0.64]
+Condition: 0
+Time step 43, joint angles:
+['89.938', '1.191', '-61.121', '-0.632']
+Time step 43, end-effector coordinates:
+['-2.915', '-399.960', '97.574', '-90.658']
+Time step 43, X+U
+[ 90.01  0.71 -61.36 -0.69]
+Condition: 0
+Time step 44, joint angles:
+['90.003', '0.737', '-61.345', '-0.683']
+Time step 44, end-effector coordinates:
+['-3.204', '-399.966', '97.533', '-90.497']
+Time step 44, X+U
+[ 89.97  0.20 -61.63 -0.79]
+Condition: 0
+Time step 45, joint angles:
+['89.965', '0.229', '-61.617', '-0.777']
+Time step 45, end-effector coordinates:
+['-2.272', '-399.985', '97.439', '-90.056']
+Time step 45, X+U
+[ 89.87 -0.13 -61.79 -0.84]
+Condition: 0
+Time step 46, joint angles:
+['89.871', '-0.109', '-61.781', '-0.834']
+Time step 46, end-effector coordinates:
+['-0.452', '-399.999', '97.326', '-89.417']
+Time step 46, X+U
+[ 89.81 -0.16 -61.67 -0.70]
+Condition: 0
+Time step 47, joint angles:
+['89.807', '-0.161', '-61.663', '-0.701']
+Time step 47, end-effector coordinates:
+['1.235', '-399.998', '97.258', '-88.928']
+Time step 47, X+U
+[ 89.83  0.02 -61.17 -0.32]
+Condition: 0
+Time step 48, joint angles:
+['89.833', '0.007', '-61.166', '-0.339']
+Time step 48, end-effector coordinates:
+['1.838', '-399.995', '97.307', '-88.945']
+Time step 48, X+U
+[ 89.95  0.23 -60.40  0.14]
+Condition: 0
+Time step 49, joint angles:
+['89.952', '0.216', '-60.389', '0.123']
+Time step 49, end-effector coordinates:
+['1.143', '-399.998', '97.514', '-89.503']
+Time step 49, X+U
+[ 90.14  0.32 -59.62  0.49]
+Condition: 0
+Time step 50, joint angles:
+['90.135', '0.312', '-59.609', '0.477']
+Time step 50, end-effector coordinates:
+['-0.327', '-399.999', '97.838', '-90.291']
+Time step 50, X+U
+[ 90.34  0.26 -59.11  0.59]
+Condition: 0
+Time step 51, joint angles:
+['90.330', '0.266', '-59.103', '0.589']
+Time step 51, end-effector coordinates:
+['-1.896', '-399.994', '98.163', '-90.925']
+Time step 51, X+U
+[ 90.47  0.17 -58.96  0.47]
+Condition: 0
+Time step 52, joint angles:
+['90.461', '0.174', '-58.955', '0.477']
+Time step 52, end-effector coordinates:
+['-3.115', '-399.987', '98.374', '-91.185']
+Time step 52, X+U
+[ 90.44  0.15 -59.07  0.28]
+Condition: 0
+Time step 53, joint angles:
+['90.439', '0.152', '-59.057', '0.282']
+Time step 53, end-effector coordinates:
+['-3.748', '-399.982', '98.435', '-91.112']
+Time step 53, X+U
+[ 90.17  0.25 -59.29  0.15]
+Condition: 0
+Time step 54, joint angles:
+['90.183', '0.242', '-59.278', '0.148']
+Time step 54, end-effector coordinates:
+['-3.529', '-399.984', '98.393', '-90.873']
+Time step 54, X+U
+[ 89.69  0.41 -59.60  0.14]
+Condition: 0
+Time step 55, joint angles:
+['89.705', '0.389', '-59.594', '0.133']
+Time step 55, end-effector coordinates:
+['-2.020', '-399.994', '98.301', '-90.574']
+Time step 55, X+U
+[ 89.13  0.52 -60.05  0.22]
+Condition: 0
+Time step 56, joint angles:
+['89.157', '0.500', '-60.040', '0.213']
+Time step 56, end-effector coordinates:
+['0.868', '-399.997', '98.169', '-90.227']
+Time step 56, X+U
+[ 88.75  0.50 -60.58  0.36]
+Condition: 0
+Time step 57, joint angles:
+['88.766', '0.496', '-60.569', '0.350']
+Time step 57, end-effector coordinates:
+['4.366', '-399.972', '97.983', '-89.870']
+Time step 57, X+U
+[ 88.70  0.31 -61.01  0.51]
+Condition: 0
+Time step 58, joint angles:
+['88.699', '0.324', '-61.000', '0.512']
+Time step 58, end-effector coordinates:
+['7.101', '-399.933', '97.763', '-89.612']
+Time step 58, X+U
+[ 88.91 -0.04 -61.14  0.67]
+Condition: 0
+Time step 59, joint angles:
+['88.901', '-0.015', '-61.133', '0.675']
+Time step 59, end-effector coordinates:
+['8.093', '-399.917', '97.583', '-89.535']
+Time step 59, X+U
+[ 89.18 -0.49 -60.93  0.80]
+Condition: 0
+Time step 60, joint angles:
+['89.158', '-0.457', '-60.918', '0.805']
+Time step 60, end-effector coordinates:
+['7.717', '-399.926', '97.528', '-89.561']
+Time step 60, X+U
+[ 89.28 -0.92 -60.51  0.86]
+Condition: 0
+Time step 61, joint angles:
+['89.274', '-0.897', '-60.502', '0.869']
+Time step 61, end-effector coordinates:
+['7.275', '-399.931', '97.618', '-89.506']
+Time step 61, X+U
+[ 89.18 -1.22 -60.16  0.86]
+Condition: 0
+Time step 62, joint angles:
+['89.182', '-1.204', '-60.146', '0.869']
+Time step 62, end-effector coordinates:
+['7.808', '-399.912', '97.791', '-89.245']
+Time step 62, X+U
+[ 88.93 -1.31 -60.06  0.81]
+Condition: 0
+Time step 63, joint angles:
+['88.937', '-1.303', '-60.052', '0.813']
+Time step 63, end-effector coordinates:
+['9.384', '-399.868', '97.939', '-88.847']
+Time step 63, X+U
+[ 88.61 -1.17 -60.25  0.68]
+Condition: 0
+Time step 64, joint angles:
+['88.617', '-1.181', '-60.240', '0.674']
+Time step 64, end-effector coordinates:
+['11.400', '-399.812', '97.978', '-88.447']
+Time step 64, X+U
+[ 88.31 -0.84 -60.57  0.39]
+Condition: 0
+Time step 65, joint angles:
+['88.325', '-0.868', '-60.561', '0.393']
+Time step 65, end-effector coordinates:
+['13.258', '-399.759', '97.900', '-88.111']
+Time step 65, X+U
+[ 88.20 -0.38 -60.86 -0.03]
+Condition: 0
+Time step 66, joint angles:
+['88.211', '-0.411', '-60.849', '-0.028']
+Time step 66, end-effector coordinates:
+['14.341', '-399.732', '97.766', '-87.850']
+Time step 66, X+U
+[ 88.44  0.15 -61.09 -0.42]
+Condition: 0
+Time step 67, joint angles:
+['88.435', '0.119', '-61.083', '-0.415']
+Time step 67, end-effector coordinates:
+['13.744', '-399.761', '97.646', '-87.772']
+Time step 67, X+U
+[ 89.03  0.68 -61.38 -0.47]
+Condition: 0
+Time step 68, joint angles:
+['89.010', '0.644', '-61.372', '-0.477']
+Time step 68, end-effector coordinates:
+['10.559', '-399.860', '97.549', '-88.140']
+Time step 68, X+U
+[ 89.78  1.15 -61.79 -0.03]
+Condition: 0
+Time step 69, joint angles:
+['89.750', '1.118', '-61.774', '-0.054']
+Time step 69, end-effector coordinates:
+['4.931', '-399.963', '97.428', '-89.179']
+Time step 69, X+U
+[ 90.45  1.54 -62.20  0.75]
+Condition: 0
+Time step 70, joint angles:
+['90.416', '1.517', '-62.192', '0.707']
+Time step 70, end-effector coordinates:
+['-1.671', '-399.978', '97.261', '-90.815']
+Time step 70, X+U
+[ 90.92  1.84 -62.47  1.47]
+Condition: 0
+Time step 71, joint angles:
+['90.905', '1.821', '-62.455', '1.432']
+Time step 71, end-effector coordinates:
+['-7.553', '-399.894', '97.087', '-92.644']
+Time step 71, X+U
+[ 91.25  2.00 -62.48  1.81]
+Condition: 0
+Time step 72, joint angles:
+['91.238', '1.998', '-62.471', '1.793']
+Time step 72, end-effector coordinates:
+['-11.878', '-399.774', '96.977', '-94.158']
+Time step 72, X+U
+[ 91.43  2.04 -62.30  1.70]
+Condition: 0
+Time step 73, joint angles:
+['91.425', '2.039', '-62.288', '1.706']
+Time step 73, end-effector coordinates:
+['-14.739', '-399.668', '96.971', '-95.029']
+Time step 73, X+U
+[ 91.40  1.98 -62.05  1.29]
+Condition: 0
+Time step 74, joint angles:
+['91.403', '1.985', '-62.042', '1.297']
+Time step 74, end-effector coordinates:
+['-16.171', '-399.611', '97.047', '-95.170']
+Time step 74, X+U
+[ 91.14  1.87 -61.86  0.74]
+Condition: 0
+Time step 75, joint angles:
+['91.145', '1.875', '-61.852', '0.761']
+Time step 75, end-effector coordinates:
+['-15.849', '-399.627', '97.149', '-94.685']
+Time step 75, X+U
+[ 90.72  1.68 -61.75  0.25]
+Condition: 0
+Time step 76, joint angles:
+['90.736', '1.688', '-61.745', '0.274']
+Time step 76, end-effector coordinates:
+['-13.712', '-399.712', '97.228', '-93.779']
+Time step 76, X+U
+[ 90.28  1.37 -61.67 -0.04]
+Condition: 0
+Time step 77, joint angles:
+['90.294', '1.388', '-61.664', '-0.023']
+Time step 77, end-effector coordinates:
+['-10.290', '-399.825', '97.273', '-92.698']
+Time step 77, X+U
+[ 89.86  0.98 -61.54 -0.10]
+Condition: 0
+Time step 78, joint angles:
+['89.867', '0.999', '-61.528', '-0.092']
+Time step 78, end-effector coordinates:
+['-6.290', '-399.922', '97.307', '-91.659']
+Time step 78, X+U
+[ 89.43  0.60 -61.33 -0.01]
+Condition: 0
+Time step 79, joint angles:
+['89.444', '0.622', '-61.317', '-0.004']
+Time step 79, end-effector coordinates:
+['-2.117', '-399.979', '97.363', '-90.772']
+Time step 79, X+U
+[ 89.03  0.36 -61.11  0.16]
+Condition: 0
+Time step 80, joint angles:
+['89.036', '0.368', '-61.101', '0.161']
+Time step 80, end-effector coordinates:
+['1.978', '-399.989', '97.451', '-90.063']
+Time step 80, X+U
+[ 88.70  0.29 -61.02  0.36]
+Condition: 0
+Time step 81, joint angles:
+['88.714', '0.287', '-61.006', '0.356']
+Time step 81, end-effector coordinates:
+['5.610', '-399.959', '97.541', '-89.565']
+Time step 81, X+U
+[ 88.55  0.35 -61.15  0.56]
+Condition: 0
+Time step 82, joint angles:
+['88.554', '0.342', '-61.139', '0.552']
+Time step 82, end-effector coordinates:
+['8.105', '-399.917', '97.581', '-89.357']
+Time step 82, X+U
+[ 88.59  0.45 -61.50  0.69]
+Condition: 0
+Time step 83, joint angles:
+['88.592', '0.449', '-61.492', '0.690']
+Time step 83, end-effector coordinates:
+['9.048', '-399.896', '97.526', '-89.448']
+Time step 83, X+U
+[ 88.81  0.54 -61.93  0.69]
+Condition: 0
+Time step 84, joint angles:
+['88.803', '0.533', '-61.921', '0.688']
+Time step 84, end-effector coordinates:
+['8.455', '-399.908', '97.378', '-89.731']
+Time step 84, X+U
+[ 89.14  0.57 -62.24  0.47]
+Condition: 0
+Time step 85, joint angles:
+['89.127', '0.571', '-62.234', '0.482']
+Time step 85, end-effector coordinates:
+['6.729', '-399.939', '97.200', '-90.024']
+Time step 85, X+U
+[ 89.52  0.57 -62.34  0.07]
+Condition: 0
+Time step 86, joint angles:
+['89.504', '0.575', '-62.328', '0.090']
+Time step 86, end-effector coordinates:
+['4.349', '-399.971', '97.069', '-90.180']
+Time step 86, X+U
+[ 89.87  0.55 -62.23 -0.37]
+Condition: 0
+Time step 87, joint angles:
+['89.857', '0.553', '-62.224', '-0.356']
+Time step 87, end-effector coordinates:
+['1.702', '-399.991', '97.030', '-90.169']
+Time step 87, X+U
+[ 90.09  0.50 -61.99 -0.67]
+Condition: 0
+Time step 88, joint angles:
+['90.087', '0.509', '-61.983', '-0.658']
+Time step 88, end-effector coordinates:
+['-0.694', '-399.995', '97.073', '-90.054']
+Time step 88, X+U
+[ 90.15  0.45 -61.65 -0.72]
+Condition: 0
+Time step 89, joint angles:
+['90.147', '0.449', '-61.643', '-0.717']
+Time step 89, end-effector coordinates:
+['-2.166', '-399.990', '97.174', '-89.938']
+Time step 89, X+U
+[ 90.09  0.38 -61.25 -0.60]
+Condition: 0
+Time step 90, joint angles:
+['90.088', '0.381', '-61.244', '-0.600']
+Time step 90, end-effector coordinates:
+['-2.396', '-399.990', '97.315', '-89.879']
+Time step 90, X+U
+[ 90.03  0.29 -60.88 -0.46]
+Condition: 0
+Time step 91, joint angles:
+['90.027', '0.290', '-60.876', '-0.457']
+Time step 91, end-effector coordinates:
+['-1.781', '-399.994', '97.482', '-89.869']
+Time step 91, X+U
+[ 90.03  0.14 -60.68 -0.38]
+Condition: 0
+Time step 92, joint angles:
+['90.033', '0.149', '-60.666', '-0.379']
+Time step 92, end-effector coordinates:
+['-1.071', '-399.997', '97.635', '-89.859']
+Time step 92, X+U
+[ 90.08 -0.06 -60.72 -0.37]
+Condition: 0
+Time step 93, joint angles:
+['90.081', '-0.046', '-60.712', '-0.369']
+Time step 93, end-effector coordinates:
+['-0.684', '-399.999', '97.723', '-89.802']
+Time step 93, X+U
+[ 90.10 -0.26 -61.02 -0.44]
+Condition: 0
+Time step 94, joint angles:
+['90.100', '-0.251', '-61.012', '-0.432']
+Time step 94, end-effector coordinates:
+['-0.429', '-400.000', '97.703', '-89.666']
+Time step 94, X+U
+[ 90.08 -0.41 -61.43 -0.61]
+Condition: 0
+Time step 95, joint angles:
+['90.076', '-0.406', '-61.420', '-0.608']
+Time step 95, end-effector coordinates:
+['0.066', '-399.999', '97.578', '-89.417']
+Time step 95, X+U
+[ 90.09 -0.47 -61.70 -0.88]
+Condition: 0
+Time step 96, joint angles:
+['90.090', '-0.465', '-61.688', '-0.873']
+Time step 96, end-effector coordinates:
+['0.712', '-399.997', '97.408', '-89.061']
+Time step 96, X+U
+[ 90.24 -0.41 -61.61 -1.09]
+Condition: 0
+Time step 97, joint angles:
+['90.239', '-0.407', '-61.600', '-1.086']
+Time step 97, end-effector coordinates:
+['0.797', '-399.996', '97.297', '-88.751']
+Time step 97, X+U
+[ 90.54 -0.24 -61.14 -1.10]
+Condition: 0
+Time step 98, joint angles:
+['90.532', '-0.242', '-61.131', '-1.102']
+Time step 98, end-effector coordinates:
+['-0.422', '-399.997', '97.333', '-88.746']
+Time step 98, X+U
+[ 91.01 -0.11 -60.46 -1.01]
+Condition: 0
+Time step 99, joint angles:
+['90.992', '-0.114', '-60.448', '-1.011']
+Time step 99, end-effector coordinates:
+['-2.978', '-399.988', '97.529', '-89.189']
+Time step 99, X+U
+[ 92.29 -0.53 -59.42 -1.32]
+Sample finished at: Iteration 0 condition 0 sample 0
+
+Iteration 0 condition 0 sample 1
+Linear Gaussian Policy
+Initial state:
+[ 89.89  0.97 -60.48  0.00]
+Target state:
+[-30.07  49.40 -55.19 -19.22]
+[ 360.00  60.00  100.00 -0.00]
+Condition: 0
+Time step 0, joint angles:
+['89.895', '0.974', '-60.482', '0.000']
+Time step 0, end-effector coordinates:
+['-2.241', '-399.979', '97.803', '-90.872']
+Time step 0, X+U
+[ 91.11  1.66 -60.43  0.20]
+Condition: 0
+Time step 1, joint angles:
+['91.051', '1.617', '-60.418', '0.184']
+Time step 1, end-effector coordinates:
+['-2.241', '-399.979', '97.803', '-90.866']
+Time step 1, X+U
+[ 91.22  1.82 -60.47  0.46]
+Condition: 0
+Time step 2, joint angles:
+['91.215', '1.813', '-60.464', '0.447']
+Time step 2, end-effector coordinates:
+['-12.300', '-399.772', '97.826', '-92.857']
+Time step 2, X+U
+[ 90.82  1.81 -60.62  0.82]
+Condition: 0
+Time step 3, joint angles:
+['90.830', '1.806', '-60.608', '0.804']
+Time step 3, end-effector coordinates:
+['-14.017', '-399.705', '97.807', '-93.476']
+Time step 3, X+U
+[ 90.31  1.77 -60.81  1.17]
+Condition: 0
+Time step 4, joint angles:
+['90.326', '1.769', '-60.799', '1.156']
+Time step 4, end-effector coordinates:
+['-11.306', '-399.791', '97.747', '-93.441']
+Time step 4, X+U
+[ 89.96  1.74 -60.95  1.46]
+Condition: 0
+Time step 5, joint angles:
+['89.970', '1.735', '-60.939', '1.451']
+Time step 5, end-effector coordinates:
+['-7.677', '-399.879', '97.667', '-93.251']
+Time step 5, X+U
+[ 89.85  1.63 -60.93  1.72]
+Condition: 0
+Time step 6, joint angles:
+['89.849', '1.634', '-60.923', '1.720']
+Time step 6, end-effector coordinates:
+['-5.089', '-399.922', '97.609', '-93.156']
+Time step 6, X+U
+[ 89.91  1.40 -60.73  1.98]
+Condition: 0
+Time step 7, joint angles:
+['89.904', '1.413', '-60.717', '1.979']
+Time step 7, end-effector coordinates:
+['-3.938', '-399.941', '97.615', '-93.203']
+Time step 7, X+U
+[ 90.00  1.08 -60.40  2.17]
+Condition: 0
+Time step 8, joint angles:
+['89.995', '1.101', '-60.391', '2.168']
+Time step 8, end-effector coordinates:
+['-3.643', '-399.953', '97.701', '-93.295']
+Time step 8, X+U
+[ 90.00  0.76 -60.10  2.18]
+Condition: 0
+Time step 9, joint angles:
+['90.000', '0.780', '-60.088', '2.186']
+Time step 9, end-effector coordinates:
+['-3.326', '-399.968', '97.837', '-93.263']
+Time step 9, X+U
+[ 89.88  0.50 -59.99  1.95]
+Condition: 0
+Time step 10, joint angles:
+['89.883', '0.512', '-59.981', '1.960']
+Time step 10, end-effector coordinates:
+['-2.386', '-399.984', '97.963', '-92.967']
+Time step 10, X+U
+[ 89.67  0.29 -60.22  1.46]
+Condition: 0
+Time step 11, joint angles:
+['89.671', '0.306', '-60.206', '1.483']
+Time step 11, end-effector coordinates:
+['-0.748', '-399.995', '98.008', '-92.354']
+Time step 11, X+U
+[ 89.38  0.12 -60.76  0.82]
+Condition: 0
+Time step 12, joint angles:
+['89.394', '0.129', '-60.746', '0.845']
+Time step 12, end-effector coordinates:
+['1.370', '-399.996', '97.914', '-91.457']
+Time step 12, X+U
+[ 89.09 -0.04 -61.39  0.20]
+Condition: 0
+Time step 13, joint angles:
+['89.101', '-0.032', '-61.379', '0.223']
+Time step 13, end-effector coordinates:
+['3.839', '-399.981', '97.689', '-90.366']
+Time step 13, X+U
+[ 88.88 -0.15 -61.79 -0.22]
+Condition: 0
+Time step 14, joint angles:
+['88.884', '-0.146', '-61.775', '-0.212']
+Time step 14, end-effector coordinates:
+['6.375', '-399.949', '97.426', '-89.292']
+Time step 14, X+U
+[ 88.82 -0.17 -61.74 -0.43]
+Condition: 0
+Time step 15, joint angles:
+['88.825', '-0.169', '-61.730', '-0.421']
+Time step 15, end-effector coordinates:
+['8.239', '-399.915', '97.260', '-88.526']
+Time step 15, X+U
+[ 88.89 -0.11 -61.29 -0.55]
+Condition: 0
+Time step 16, joint angles:
+['88.890', '-0.115', '-61.283', '-0.545']
+Time step 16, end-effector coordinates:
+['8.722', '-399.904', '97.279', '-88.234']
+Time step 16, X+U
+[ 88.98 -0.06 -60.66 -0.76]
+Condition: 0
+Time step 17, joint angles:
+['88.982', '-0.064', '-60.650', '-0.752']
+Time step 17, end-effector coordinates:
+['8.098', '-399.918', '97.465', '-88.231']
+Time step 17, X+U
+[ 89.08 -0.12 -60.09 -1.10]
+Condition: 0
+Time step 18, joint angles:
+['89.078', '-0.117', '-60.078', '-1.087']
+Time step 18, end-effector coordinates:
+['7.302', '-399.933', '97.729', '-88.166']
+Time step 18, X+U
+[ 89.26 -0.33 -59.74 -1.43]
+Condition: 0
+Time step 19, joint angles:
+['89.248', '-0.315', '-59.729', '-1.416']
+Time step 19, end-effector coordinates:
+['6.795', '-399.942', '97.967', '-87.874']
+Time step 19, X+U
+[ 89.54 -0.63 -59.65 -1.54]
+Condition: 0
+Time step 20, joint angles:
+['89.528', '-0.605', '-59.639', '-1.527']
+Time step 20, end-effector coordinates:
+['6.211', '-399.950', '98.113', '-87.517']
+Time step 20, X+U
+[ 89.84 -0.90 -59.75 -1.29]
+Condition: 0
+Time step 21, joint angles:
+['89.831', '-0.878', '-59.741', '-1.285']
+Time step 21, end-effector coordinates:
+['5.142', '-399.961', '98.150', '-87.396']
+Time step 21, X+U
+[ 90.01 -1.05 -59.92 -0.73]
+Condition: 0
+Time step 22, joint angles:
+['90.005', '-1.036', '-59.910', '-0.747']
+Time step 22, end-effector coordinates:
+['3.861', '-399.970', '98.108', '-87.668']
+Time step 22, X+U
+[ 89.94 -1.03 -60.02 -0.13]
+Condition: 0
+Time step 23, joint angles:
+['89.942', '-1.034', '-60.015', '-0.146']
+Time step 23, end-effector coordinates:
+['3.130', '-399.972', '98.038', '-88.222']
+Time step 23, X+U
+[ 89.63 -0.83 -60.02  0.25]
+Condition: 0
+Time step 24, joint angles:
+['89.640', '-0.842', '-60.008', '0.234']
+Time step 24, end-effector coordinates:
+['3.561', '-399.968', '97.994', '-88.762']
+Time step 24, X+U
+[ 89.23 -0.41 -60.00  0.24]
+Condition: 0
+Time step 25, joint angles:
+['89.245', '-0.438', '-59.989', '0.230']
+Time step 25, end-effector coordinates:
+['5.086', '-399.957', '97.996', '-89.032']
+Time step 25, X+U
+[ 89.00  0.16 -60.13 -0.07]
+Condition: 0
+Time step 26, joint angles:
+['89.017', '0.109', '-60.122', '-0.076']
+Time step 26, end-effector coordinates:
+['6.610', '-399.943', '98.005', '-89.037']
+Time step 26, X+U
+[ 89.10  0.71 -60.45 -0.44]
+Condition: 0
+Time step 27, joint angles:
+['89.109', '0.677', '-60.437', '-0.437']
+Time step 27, end-effector coordinates:
+['6.530', '-399.947', '97.949', '-89.049']
+Time step 27, X+U
+[ 89.45  1.13 -60.75 -0.62]
+Condition: 0
+Time step 28, joint angles:
+['89.440', '1.105', '-60.742', '-0.621']
+Time step 28, end-effector coordinates:
+['4.154', '-399.972', '97.818', '-89.348']
+Time step 28, X+U
+[ 89.74  1.46 -60.80 -0.58]
+Condition: 0
+Time step 29, joint angles:
+['89.735', '1.440', '-60.793', '-0.582']
+Time step 29, end-effector coordinates:
+['0.534', '-399.981', '97.691', '-89.924']
+Time step 29, X+U
+[ 89.81  1.88 -60.53 -0.44]
+Condition: 0
+Time step 30, joint angles:
+['89.809', '1.851', '-60.523', '-0.449']
+Time step 30, end-effector coordinates:
+['-2.554', '-399.961', '97.669', '-90.595']
+Time step 30, X+U
+[ 89.71  2.43 -60.11 -0.35]
+Condition: 0
+Time step 31, joint angles:
+['89.720', '2.390', '-60.098', '-0.362']
+Time step 31, end-effector coordinates:
+['-4.324', '-399.925', '97.782', '-91.212']
+Time step 31, X+U
+[ 89.62  2.93 -59.78 -0.32]
+Condition: 0
+Time step 32, joint angles:
+['89.629', '2.894', '-59.771', '-0.335']
+Time step 32, end-effector coordinates:
+['-5.346', '-399.879', '97.959', '-91.749']
+Time step 32, X+U
+[ 89.61  3.19 -59.70 -0.23]
+Condition: 0
+Time step 33, joint angles:
+['89.614', '3.178', '-59.695', '-0.237']
+Time step 33, end-effector coordinates:
+['-6.248', '-399.825', '98.095', '-92.190']
+Time step 33, X+U
+[ 89.67  3.19 -59.86  0.08]
+Condition: 0
+Time step 34, joint angles:
+['89.670', '3.191', '-59.846', '0.077']
+Time step 34, end-effector coordinates:
+['-7.011', '-399.787', '98.127', '-92.555']
+Time step 34, X+U
+[ 89.81  3.02 -60.08  0.64]
+Condition: 0
+Time step 35, joint angles:
+['89.803', '3.029', '-60.074', '0.625']
+Time step 35, end-effector coordinates:
+['-7.438', '-399.778', '98.064', '-92.938']
+Time step 35, X+U
+[ 90.09  2.71 -60.22  1.22]
+Condition: 0
+Time step 36, joint angles:
+['90.073', '2.736', '-60.213', '1.209']
+Time step 36, end-effector coordinates:
+['-7.870', '-399.785', '97.969', '-93.457']
+Time step 36, X+U
+[ 90.52  2.28 -60.17  1.54]
+Condition: 0
+Time step 37, joint angles:
+['90.496', '2.313', '-60.156', '1.547']
+Time step 37, end-effector coordinates:
+['-8.864', '-399.790', '97.911', '-94.018']
+Time step 37, X+U
+[ 90.98  1.78 -59.90  1.50]
+Condition: 0
+Time step 38, joint angles:
+['90.961', '1.819', '-59.887', '1.520']
+Time step 38, end-effector coordinates:
+['-10.524', '-399.781', '97.935', '-94.355']
+Time step 38, X+U
+[ 91.28  1.38 -59.51  1.26]
+Condition: 0
+Time step 39, joint angles:
+['91.268', '1.414', '-59.500', '1.279']
+Time step 39, end-effector coordinates:
+['-12.258', '-399.763', '98.047', '-94.300']
+Time step 39, X+U
+[ 91.28  1.24 -59.18  1.08]
+Condition: 0
+Time step 40, joint angles:
+['91.282', '1.247', '-59.175', '1.089']
+Time step 40, end-effector coordinates:
+['-13.167', '-399.753', '98.209', '-93.960']
+Time step 40, X+U
+[ 91.03  1.36 -59.07  1.09]
+Condition: 0
+Time step 41, joint angles:
+['91.040', '1.348', '-59.057', '1.091']
+Time step 41, end-effector coordinates:
+['-12.754', '-399.773', '98.344', '-93.618']
+Time step 41, X+U
+[ 90.70  1.61 -59.15  1.20]
+Condition: 0
+Time step 42, joint angles:
+['90.717', '1.587', '-59.139', '1.195']
+Time step 42, end-effector coordinates:
+['-11.378', '-399.811', '98.393', '-93.479']
+Time step 42, X+U
+[ 90.43  1.79 -59.33  1.25]
+Condition: 0
+Time step 43, joint angles:
+['90.442', '1.779', '-59.316', '1.239']
+Time step 43, end-effector coordinates:
+['-9.847', '-399.841', '98.359', '-93.499']
+Time step 43, X+U
+[ 90.24  1.80 -59.54  1.18]
+Condition: 0
+Time step 44, joint angles:
+['90.241', '1.795', '-59.527', '1.178']
+Time step 44, end-effector coordinates:
+['-8.516', '-399.862', '98.285', '-93.461']
+Time step 44, X+U
+[ 90.09  1.63 -59.79  1.09]
+Condition: 0
+Time step 45, joint angles:
+['90.091', '1.638', '-59.781', '1.089']
+Time step 45, end-effector coordinates:
+['-7.161', '-399.888', '98.197', '-93.214']
+Time step 45, X+U
+[ 89.99  1.42 -60.08  1.03]
+Condition: 0
+Time step 46, joint angles:
+['89.989', '1.429', '-60.068', '1.035']
+Time step 46, end-effector coordinates:
+['-5.636', '-399.920', '98.091', '-92.818']
+Time step 46, X+U
+[ 89.95  1.28 -60.36  0.97]
+Condition: 0
+Time step 47, joint angles:
+['89.945', '1.290', '-60.346', '0.971']
+Time step 47, end-effector coordinates:
+['-4.288', '-399.946', '97.971', '-92.453']
+Time step 47, X+U
+[ 89.95  1.28 -60.60  0.81]
+Condition: 0
+Time step 48, joint angles:
+['89.950', '1.284', '-60.591', '0.810']
+Time step 48, end-effector coordinates:
+['-3.557', '-399.959', '97.856', '-92.206']
+Time step 48, X+U
+[ 89.99  1.41 -60.83  0.52]
+Condition: 0
+Time step 49, joint angles:
+['89.991', '1.404', '-60.819', '0.522']
+Time step 49, end-effector coordinates:
+['-3.576', '-399.959', '97.754', '-92.045']
+Time step 49, X+U
+[ 90.07  1.61 -61.05  0.16]
+Condition: 0
+Time step 50, joint angles:
+['90.072', '1.596', '-61.037', '0.167']
+Time step 50, end-effector coordinates:
+['-4.226', '-399.948', '97.659', '-91.917']
+Time step 50, X+U
+[ 90.20  1.80 -61.24 -0.16]
+Condition: 0
+Time step 51, joint angles:
+['90.198', '1.790', '-61.227', '-0.154']
+Time step 51, end-effector coordinates:
+['-5.379', '-399.926', '97.568', '-91.835']
+Time step 51, X+U
+[ 90.37  1.90 -61.39 -0.37]
+Condition: 0
+Time step 52, joint angles:
+['90.369', '1.896', '-61.377', '-0.369']
+Time step 52, end-effector coordinates:
+['-6.849', '-399.893', '97.489', '-91.834']
+Time step 52, X+U
+[ 90.62  1.84 -61.50 -0.51]
+Condition: 0
+Time step 53, joint angles:
+['90.610', '1.841', '-61.492', '-0.501']
+Time step 53, end-effector coordinates:
+['-8.364', '-399.859', '97.426', '-91.896']
+Time step 53, X+U
+[ 90.99  1.58 -61.59 -0.64]
+Condition: 0
+Time step 54, joint angles:
+['90.977', '1.604', '-61.578', '-0.632']
+Time step 54, end-effector coordinates:
+['-9.879', '-399.827', '97.378', '-91.949']
+Time step 54, X+U
+[ 91.52  1.20 -61.64 -0.81]
+Condition: 0
+Time step 55, joint angles:
+['91.493', '1.230', '-61.628', '-0.796']
+Time step 55, end-effector coordinates:
+['-11.720', '-399.790', '97.342', '-91.948']
+Time step 55, X+U
+[ 92.09  0.79 -61.62 -0.94]
+Condition: 0
+Time step 56, joint angles:
+['92.060', '0.836', '-61.613', '-0.922']
+Time step 56, end-effector coordinates:
+['-14.179', '-399.726', '97.322', '-91.926']
+Time step 56, X+U
+[ 92.56  0.50 -61.48 -0.94]
+Condition: 0
+Time step 57, joint angles:
+['92.534', '0.538', '-61.469', '-0.929']
+Time step 57, end-effector coordinates:
+['-16.938', '-399.631', '97.328', '-91.974']
+Time step 57, X+U
+[ 92.83  0.42 -61.15 -0.81]
+Condition: 0
+Time step 58, joint angles:
+['92.824', '0.431', '-61.139', '-0.809']
+Time step 58, end-effector coordinates:
+['-19.327', '-399.528', '97.388', '-92.142']
+Time step 58, X+U
+[ 92.96  0.56 -60.66 -0.64]
+Condition: 0
+Time step 59, joint angles:
+['92.955', '0.551', '-60.652', '-0.650']
+Time step 59, end-effector coordinates:
+['-21.022', '-399.444', '97.525', '-92.446']
+Time step 59, X+U
+[ 92.98  0.83 -60.13 -0.55]
+Condition: 0
+Time step 60, joint angles:
+['92.986', '0.820', '-60.125', '-0.554']
+Time step 60, end-effector coordinates:
+['-22.298', '-399.373', '97.728', '-92.856']
+Time step 60, X+U
+[ 92.85  1.13 -59.67 -0.55]
+Condition: 0
+Time step 61, joint angles:
+['92.855', '1.113', '-59.661', '-0.559']
+Time step 61, end-effector coordinates:
+['-23.334', '-399.309', '97.948', '-93.251']
+Time step 61, X+U
+[ 92.41  1.36 -59.30 -0.63]
+Condition: 0
+Time step 62, joint angles:
+['92.426', '1.342', '-59.291', '-0.638']
+Time step 62, end-effector coordinates:
+['-23.316', '-399.301', '98.141', '-93.408']
+Time step 62, X+U
+[ 91.64  1.52 -59.04 -0.72]
+Condition: 0
+Time step 63, joint angles:
+['91.679', '1.496', '-59.028', '-0.731']
+Time step 63, end-effector coordinates:
+['-21.025', '-399.420', '98.296', '-93.131']
+Time step 63, X+U
+[ 90.76  1.58 -58.95 -0.79]
+Condition: 0
+Time step 64, joint angles:
+['90.812', '1.564', '-58.945', '-0.793']
+Time step 64, end-effector coordinates:
+['-16.285', '-399.635', '98.405', '-92.444']
+Time step 64, X+U
+[ 90.08  1.51 -59.14 -0.80]
+Condition: 0
+Time step 65, joint angles:
+['90.138', '1.506', '-59.129', '-0.805']
+Time step 65, end-effector coordinates:
+['-10.444', '-399.827', '98.440', '-91.583']
+Time step 65, X+U
+[ 89.78  1.27 -59.59 -0.77]
+Condition: 0
+Time step 66, joint angles:
+['89.786', '1.280', '-59.577', '-0.773']
+Time step 66, end-effector coordinates:
+['-5.544', '-399.928', '98.363', '-90.836']
+Time step 66, X+U
+[ 89.79  0.88 -60.16 -0.71]
+Condition: 0
+Time step 67, joint angles:
+['89.782', '0.898', '-60.149', '-0.706']
+Time step 67, end-effector coordinates:
+['-2.412', '-399.968', '98.176', '-90.293']
+Time step 67, X+U
+[ 89.94  0.39 -60.68 -0.63]
+Condition: 0
+Time step 68, joint angles:
+['89.924', '0.435', '-60.666', '-0.619']
+Time step 68, end-effector coordinates:
+['-1.224', '-399.986', '97.938', '-89.974']
+Time step 68, X+U
+[ 90.04 -0.08 -61.03 -0.57]
+Condition: 0
+Time step 69, joint angles:
+['90.032', '-0.039', '-61.015', '-0.563']
+Time step 69, end-effector coordinates:
+['-0.798', '-399.996', '97.722', '-89.738']
+Time step 69, X+U
+[ 90.01 -0.42 -61.17 -0.60]
+Condition: 0
+Time step 70, joint angles:
+['90.006', '-0.394', '-61.160', '-0.593']
+Time step 70, end-effector coordinates:
+['-0.104', '-400.000', '97.577', '-89.429']
+Time step 70, X+U
+[ 89.84 -0.55 -61.11 -0.70]
+Condition: 0
+Time step 71, joint angles:
+['89.841', '-0.545', '-61.096', '-0.692']
+Time step 71, end-effector coordinates:
+['1.164', '-399.996', '97.517', '-89.018']
+Time step 71, X+U
+[ 89.58 -0.49 -60.81 -0.76]
+Condition: 0
+Time step 72, joint angles:
+['89.588', '-0.498', '-60.801', '-0.757']
+Time step 72, end-effector coordinates:
+['2.775', '-399.986', '97.543', '-88.604']
+Time step 72, X+U
+[ 89.31 -0.31 -60.28 -0.68]
+Condition: 0
+Time step 73, joint angles:
+['89.318', '-0.329', '-60.273', '-0.684']
+Time step 73, end-effector coordinates:
+['4.400', '-399.972', '97.666', '-88.333']
+Time step 73, X+U
+[ 89.10 -0.09 -59.62 -0.44]
+Condition: 0
+Time step 74, joint angles:
+['89.110', '-0.112', '-59.608', '-0.451']
+Time step 74, end-effector coordinates:
+['5.762', '-399.957', '97.886', '-88.306']
+Time step 74, X+U
+[ 89.05  0.12 -59.00 -0.07]
+Condition: 0
+Time step 75, joint angles:
+['89.052', '0.105', '-58.987', '-0.089']
+Time step 75, end-effector coordinates:
+['6.557', '-399.946', '98.163', '-88.547']
+Time step 75, X+U
+[ 89.24  0.29 -58.55  0.37]
+Condition: 0
+Time step 76, joint angles:
+['89.233', '0.284', '-58.543', '0.356']
+Time step 76, end-effector coordinates:
+['6.294', '-399.950', '98.422', '-89.070']
+Time step 76, X+U
+[ 89.67  0.42 -58.29  0.83]
+Condition: 0
+Time step 77, joint angles:
+['89.660', '0.415', '-58.281', '0.816']
+Time step 77, end-effector coordinates:
+['4.485', '-399.974', '98.607', '-89.873']
+Time step 77, X+U
+[ 90.24  0.53 -58.17  1.17]
+Condition: 0
+Time step 78, joint angles:
+['90.225', '0.528', '-58.161', '1.159']
+Time step 78, end-effector coordinates:
+['1.102', '-399.996', '98.716', '-90.893']
+Time step 78, X+U
+[ 90.77  0.67 -58.22  1.23]
+Condition: 0
+Time step 79, joint angles:
+['90.756', '0.666', '-58.211', '1.230']
+Time step 79, end-effector coordinates:
+['-3.186', '-399.983', '98.766', '-91.913']
+Time step 79, X+U
+[ 91.14  0.83 -58.51  0.98]
+Condition: 0
+Time step 80, joint angles:
+['91.126', '0.821', '-58.499', '0.990']
+Time step 80, end-effector coordinates:
+['-7.316', '-399.926', '98.746', '-92.653']
+Time step 80, X+U
+[ 91.30  0.90 -59.00  0.56]
+Condition: 0
+Time step 81, joint angles:
+['91.298', '0.900', '-58.985', '0.571']
+Time step 81, end-effector coordinates:
+['-10.367', '-399.856', '98.626', '-92.937']
+Time step 81, X+U
+[ 91.29  0.82 -59.48  0.13]
+Condition: 0
+Time step 82, joint angles:
+['91.287', '0.822', '-59.473', '0.146']
+Time step 82, end-effector coordinates:
+['-11.810', '-399.813', '98.423', '-92.770']
+Time step 82, X+U
+[ 91.11  0.60 -59.74 -0.20]
+Condition: 0
+Time step 83, joint angles:
+['91.115', '0.608', '-59.727', '-0.189']
+Time step 83, end-effector coordinates:
+['-11.495', '-399.825', '98.220', '-92.255']
+Time step 83, X+U
+[ 90.84  0.35 -59.67 -0.46]
+Condition: 0
+Time step 84, joint angles:
+['90.841', '0.363', '-59.662', '-0.455']
+Time step 84, end-effector coordinates:
+['-9.636', '-399.878', '98.114', '-91.533']
+Time step 84, X+U
+[ 90.58  0.18 -59.41 -0.71]
+Condition: 0
+Time step 85, joint angles:
+['90.584', '0.187', '-59.405', '-0.698']
+Time step 85, end-effector coordinates:
+['-6.972', '-399.937', '98.141', '-90.748']
+Time step 85, X+U
+[ 90.48  0.16 -59.17 -0.91]
+Condition: 0
+Time step 86, joint angles:
+['90.485', '0.156', '-59.165', '-0.905']
+Time step 86, end-effector coordinates:
+['-4.652', '-399.972', '98.248', '-90.073']
+Time step 86, X+U
+[ 90.58  0.33 -59.04 -1.01]
+Condition: 0
+Time step 87, joint angles:
+['90.579', '0.324', '-59.034', '-1.015']
+Time step 87, end-effector coordinates:
+['-3.865', '-399.981', '98.348', '-89.736']
+Time step 87, X+U
+[ 90.75  0.72 -58.93 -0.98]
+Condition: 0
+Time step 88, joint angles:
+['90.749', '0.696', '-58.921', '-0.985']
+Time step 88, end-effector coordinates:
+['-5.031', '-399.967', '98.403', '-89.888']
+Time step 88, X+U
+[ 90.84  1.23 -58.71 -0.82]
+Condition: 0
+Time step 89, joint angles:
+['90.848', '1.198', '-58.696', '-0.839']
+Time step 89, end-effector coordinates:
+['-7.359', '-399.925', '98.450', '-90.462']
+Time step 89, X+U
+[ 90.85  1.72 -58.37 -0.63]
+Condition: 0
+Time step 90, joint angles:
+['90.853', '1.681', '-58.363', '-0.648']
+Time step 90, end-effector coordinates:
+['-9.580', '-399.864', '98.543', '-91.208']
+Time step 90, X+U
+[ 90.87  2.02 -58.07 -0.46]
+Condition: 0
+Time step 91, joint angles:
+['90.871', '2.000', '-58.065', '-0.473']
+Time step 91, end-effector coordinates:
+['-11.092', '-399.804', '98.682', '-91.889']
+Time step 91, X+U
+[ 91.01  2.07 -57.98 -0.33]
+Condition: 0
+Time step 92, joint angles:
+['91.003', '2.064', '-57.969', '-0.334']
+Time step 92, end-effector coordinates:
+['-12.188', '-399.754', '98.806', '-92.401']
+Time step 92, X+U
+[ 91.24  1.89 -58.17 -0.18]
+Condition: 0
+Time step 93, joint angles:
+['91.231', '1.905', '-58.157', '-0.182']
+Time step 93, end-effector coordinates:
+['-13.298', '-399.715', '98.846', '-92.732']
+Time step 93, X+U
+[ 91.44  1.61 -58.61  0.06]
+Condition: 0
+Time step 94, joint angles:
+['91.431', '1.625', '-58.596', '0.059']
+Time step 94, end-effector coordinates:
+['-14.405', '-399.686', '98.768', '-92.954']
+Time step 94, X+U
+[ 91.47  1.29 -59.17  0.42]
+Condition: 0
+Time step 95, joint angles:
+['91.461', '1.307', '-59.162', '0.421']
+Time step 95, end-effector coordinates:
+['-14.949', '-399.681', '98.585', '-93.115']
+Time step 95, X+U
+[ 91.26  0.96 -59.72  0.88]
+Condition: 0
+Time step 96, joint angles:
+['91.261', '0.981', '-59.706', '0.871']
+Time step 96, end-effector coordinates:
+['-14.184', '-399.723', '98.349', '-93.188']
+Time step 96, X+U
+[ 90.90  0.63 -60.17  1.35]
+Condition: 0
+Time step 97, joint angles:
+['90.911', '0.648', '-60.158', '1.332']
+Time step 97, end-effector coordinates:
+['-11.797', '-399.812', '98.122', '-93.113']
+Time step 97, X+U
+[ 90.55  0.28 -60.58  1.77]
+Condition: 0
+Time step 98, joint angles:
+['90.563', '0.297', '-60.565', '1.762']
+Time step 98, end-effector coordinates:
+['-8.338', '-399.907', '97.934', '-92.891']
+Time step 98, X+U
+[ 90.37 -0.19 -61.06  2.38]
+Condition: 0
+Time step 99, joint angles:
+['90.370', '-0.152', '-61.053', '2.366']
+Time step 99, end-effector coordinates:
+['-4.830', '-399.970', '97.765', '-92.621']
+Time step 99, X+U
+[ 90.49 -1.47 -62.12  4.53]
+Sample finished at: Iteration 0 condition 0 sample 1
+
+Iteration 0 condition 0 sample 2
+Linear Gaussian Policy
+Initial state:
+[ 89.89  0.97 -60.48  0.00]
+Target state:
+[-30.07  49.40 -55.19 -19.22]
+[ 360.00  60.00  100.00 -0.00]
+Condition: 0
+Time step 0, joint angles:
+['89.895', '0.974', '-60.482', '0.000']
+Time step 0, end-effector coordinates:
+['-2.241', '-399.979', '97.803', '-90.872']
+Time step 0, X+U
+[ 88.96  0.62 -60.24  0.08]
+Condition: 0
+Time step 1, joint angles:
+['89.006', '0.634', '-60.231', '0.078']
+Time step 1, end-effector coordinates:
+['-2.241', '-399.979', '97.803', '-90.866']
+Time step 1, X+U
+[ 88.51  0.42 -60.06  0.29]
+Condition: 0
+Time step 2, joint angles:
+['88.525', '0.431', '-60.052', '0.287']
+Time step 2, end-effector coordinates:
+['5.005', '-399.963', '97.904', '-89.718']
+Time step 2, X+U
+[ 88.21  0.30 -59.94  0.62]
+Condition: 0
+Time step 3, joint angles:
+['88.220', '0.306', '-59.930', '0.614']
+Time step 3, end-effector coordinates:
+['8.987', '-399.896', '97.978', '-89.242']
+Time step 3, X+U
+[ 88.08  0.31 -59.96  0.95]
+Condition: 0
+Time step 4, joint angles:
+['88.086', '0.307', '-59.952', '0.940']
+Time step 4, end-effector coordinates:
+['11.493', '-399.833', '98.029', '-89.140']
+Time step 4, X+U
+[ 88.12  0.47 -60.14  1.16]
+Condition: 0
+Time step 5, joint angles:
+['88.124', '0.458', '-60.133', '1.155']
+Time step 5, end-effector coordinates:
+['12.425', '-399.806', '98.020', '-89.333']
+Time step 5, X+U
+[ 88.27  0.76 -60.41  1.19]
+Condition: 0
+Time step 6, joint angles:
+['88.268', '0.746', '-60.402', '1.180']
+Time step 6, end-effector coordinates:
+['11.693', '-399.826', '97.945', '-89.737']
+Time step 6, X+U
+[ 88.44  1.17 -60.69  0.97]
+Condition: 0
+Time step 7, joint angles:
+['88.444', '1.149', '-60.676', '0.971']
+Time step 7, end-effector coordinates:
+['9.809', '-399.871', '97.832', '-90.195']
+Time step 7, X+U
+[ 88.63  1.68 -60.93  0.56]
+Condition: 0
+Time step 8, joint angles:
+['88.633', '1.644', '-60.917', '0.561']
+Time step 8, end-effector coordinates:
+['7.345', '-399.913', '97.718', '-90.566']
+Time step 8, X+U
+[ 88.86  2.24 -61.14  0.07]
+Condition: 0
+Time step 9, joint angles:
+['88.854', '2.203', '-61.125', '0.074']
+Time step 9, end-effector coordinates:
+['4.522', '-399.934', '97.618', '-90.837']
+Time step 9, X+U
+[ 89.11  2.80 -61.30 -0.33]
+Condition: 0
+Time step 10, joint angles:
+['89.108', '2.762', '-61.287', '-0.332']
+Time step 10, end-effector coordinates:
+['1.265', '-399.925', '97.531', '-91.132']
+Time step 10, X+U
+[ 89.35  3.24 -61.37 -0.57]
+Condition: 0
+Time step 11, joint angles:
+['89.351', '3.213', '-61.356', '-0.575']
+Time step 11, end-effector coordinates:
+['-2.212', '-399.879', '97.464', '-91.539']
+Time step 11, X+U
+[ 89.53  3.43 -61.31 -0.69]
+Condition: 0
+Time step 12, joint angles:
+['89.532', '3.418', '-61.297', '-0.686']
+Time step 12, end-effector coordinates:
+['-5.283', '-399.810', '97.435', '-91.990']
+Time step 12, X+U
+[ 89.65  3.28 -61.15 -0.77]
+Condition: 0
+Time step 13, joint angles:
+['89.649', '3.287', '-61.144', '-0.761']
+Time step 13, end-effector coordinates:
+['-7.166', '-399.761', '97.460', '-92.264']
+Time step 13, X+U
+[ 89.76  2.85 -61.02 -0.86]
+Condition: 0
+Time step 14, joint angles:
+['89.747', '2.888', '-61.007', '-0.849']
+Time step 14, end-effector coordinates:
+['-7.584', '-399.766', '97.523', '-92.174']
+Time step 14, X+U
+[ 89.85  2.35 -60.98 -0.92]
+Condition: 0
+Time step 15, joint angles:
+['89.845', '2.385', '-60.967', '-0.909']
+Time step 15, end-effector coordinates:
+['-7.052', '-399.813', '97.580', '-91.786']
+Time step 15, X+U
+[ 89.86  1.95 -60.99 -0.82]
+Condition: 0
+Time step 16, joint angles:
+['89.854', '1.978', '-60.982', '-0.811']
+Time step 16, end-effector coordinates:
+['-6.197', '-399.867', '97.597', '-91.320']
+Time step 16, X+U
+[ 89.67  1.73 -60.90 -0.45]
+Condition: 0
+Time step 17, joint angles:
+['89.677', '1.744', '-60.891', '-0.451']
+Time step 17, end-effector coordinates:
+['-5.018', '-399.910', '97.591', '-91.021']
+Time step 17, X+U
+[ 89.35  1.64 -60.59  0.16]
+Condition: 0
+Time step 18, joint angles:
+['89.361', '1.646', '-60.578', '0.143']
+Time step 18, end-effector coordinates:
+['-3.069', '-399.943', '97.629', '-90.970']
+Time step 18, X+U
+[ 89.12  1.58 -60.13  0.84]
+Condition: 0
+Time step 19, joint angles:
+['89.127', '1.585', '-60.119', '0.820']
+Time step 19, end-effector coordinates:
+['-0.563', '-399.959', '97.759', '-91.151']
+Time step 19, X+U
+[ 89.24  1.46 -59.78  1.40]
+Condition: 0
+Time step 20, joint angles:
+['89.231', '1.474', '-59.772', '1.388']
+Time step 20, end-effector coordinates:
+['1.252', '-399.960', '97.950', '-91.533']
+Time step 20, X+U
+[ 89.76  1.26 -59.76  1.73]
+Condition: 0
+Time step 21, joint angles:
+['89.740', '1.279', '-59.755', '1.725']
+Time step 21, end-effector coordinates:
+['0.866', '-399.967', '98.095', '-92.093']
+Time step 21, X+U
+[ 90.46  1.02 -60.05  1.80]
+Condition: 0
+Time step 22, joint angles:
+['90.431', '1.047', '-60.041', '1.807']
+Time step 22, end-effector coordinates:
+['-2.089', '-399.970', '98.102', '-92.744']
+Time step 22, X+U
+[ 90.92  0.88 -60.38  1.65]
+Condition: 0
+Time step 23, joint angles:
+['90.900', '0.896', '-60.375', '1.660']
+Time step 23, end-effector coordinates:
+['-6.211', '-399.935', '97.983', '-93.286']
+Time step 23, X+U
+[ 90.80  0.94 -60.51  1.31]
+Condition: 0
+Time step 24, joint angles:
+['90.807', '0.935', '-60.505', '1.315']
+Time step 24, end-effector coordinates:
+['-9.017', '-399.886', '97.844', '-93.456']
+Time step 24, X+U
+[ 90.09  1.20 -60.39  0.82]
+Condition: 0
+Time step 25, joint angles:
+['90.126', '1.170', '-60.383', '0.826']
+Time step 25, end-effector coordinates:
+['-8.488', '-399.897', '97.790', '-93.056']
+Time step 25, X+U
+[ 89.08  1.53 -60.16  0.27]
+Condition: 0
+Time step 26, joint angles:
+['89.137', '1.486', '-60.147', '0.282']
+Time step 26, end-effector coordinates:
+['-4.453', '-399.955', '97.841', '-92.122']
+Time step 26, X+U
+[ 88.16  1.73 -59.96 -0.21]
+Condition: 0
+Time step 27, joint angles:
+['88.216', '1.698', '-59.953', '-0.196']
+Time step 27, end-effector coordinates:
+['1.486', '-399.964', '97.939', '-90.905']
+Time step 27, X+U
+[ 87.62  1.63 -59.85 -0.51]
+Condition: 0
+Time step 28, joint angles:
+['87.641', '1.631', '-59.840', '-0.507']
+Time step 28, end-effector coordinates:
+['7.282', '-399.890', '98.019', '-89.715']
+Time step 28, X+U
+[ 87.54  1.24 -59.75 -0.61]
+Condition: 0
+Time step 29, joint angles:
+['87.538', '1.259', '-59.743', '-0.598']
+Time step 29, end-effector coordinates:
+['11.482', '-399.795', '98.067', '-88.766']
+Time step 29, X+U
+[ 87.86  0.75 -59.63 -0.49]
+Condition: 0
+Time step 30, joint angles:
+['87.842', '0.787', '-59.625', '-0.482']
+Time step 30, end-effector coordinates:
+['13.338', '-399.754', '98.107', '-88.199']
+Time step 30, X+U
+[ 88.48  0.44 -59.56 -0.20]
+Condition: 0
+Time step 31, joint angles:
+['88.449', '0.474', '-59.553', '-0.195']
+Time step 31, end-effector coordinates:
+['12.660', '-399.790', '98.156', '-88.146']
+Time step 31, X+U
+[ 89.29  0.42 -59.62  0.18]
+Condition: 0
+Time step 32, joint angles:
+['89.252', '0.436', '-59.615', '0.177']
+Time step 32, end-effector coordinates:
+['9.382', '-399.887', '98.186', '-88.727']
+Time step 32, X+U
+[ 90.12  0.56 -59.82  0.47]
+Condition: 0
+Time step 33, joint angles:
+['90.058', '0.558', '-59.807', '0.454']
+Time step 33, end-effector coordinates:
+['3.879', '-399.978', '98.160', '-89.867']
+Time step 33, X+U
+[ 90.77  0.60 -60.07  0.47]
+Condition: 0
+Time step 34, joint angles:
+['90.743', '0.603', '-60.055', '0.470']
+Time step 34, end-effector coordinates:
+['-2.106', '-399.990', '98.081', '-91.069']
+Time step 34, X+U
+[ 91.16  0.38 -60.31  0.15]
+Condition: 0
+Time step 35, joint angles:
+['91.147', '0.403', '-60.303', '0.166']
+Time step 35, end-effector coordinates:
+['-7.031', '-399.933', '97.977', '-91.816']
+Time step 35, X+U
+[ 91.36 -0.02 -60.52 -0.29]
+Condition: 0
+Time step 36, joint angles:
+['91.350', '0.006', '-60.513', '-0.267']
+Time step 36, end-effector coordinates:
+['-9.239', '-399.891', '97.874', '-91.715']
+Time step 36, X+U
+[ 91.50 -0.40 -60.62 -0.59]
+Condition: 0
+Time step 37, joint angles:
+['91.489', '-0.374', '-60.614', '-0.575']
+Time step 37, end-effector coordinates:
+['-9.439', '-399.889', '97.786', '-91.089']
+Time step 37, X+U
+[ 91.58 -0.52 -60.55 -0.67]
+Condition: 0
+Time step 38, joint angles:
+['91.574', '-0.511', '-60.545', '-0.668']
+Time step 38, end-effector coordinates:
+['-9.249', '-399.891', '97.744', '-90.538']
+Time step 38, X+U
+[ 91.50 -0.26 -60.37 -0.63]
+Condition: 0
+Time step 39, joint angles:
+['91.501', '-0.277', '-60.364', '-0.639']
+Time step 39, end-effector coordinates:
+['-9.427', '-399.885', '97.773', '-90.395']
+Time step 39, X+U
+[ 91.20  0.35 -60.23 -0.59]
+Condition: 0
+Time step 40, joint angles:
+['91.226', '0.299', '-60.217', '-0.605']
+Time step 40, end-effector coordinates:
+['-9.629', '-399.883', '97.848', '-90.585']
+Time step 40, X+U
+[ 90.79  1.20 -60.22 -0.54]
+Condition: 0
+Time step 41, joint angles:
+['90.825', '1.110', '-60.208', '-0.567']
+Time step 41, end-effector coordinates:
+['-9.472', '-399.886', '97.910', '-90.921']
+Time step 41, X+U
+[ 90.40  2.06 -60.38 -0.43]
+Condition: 0
+Time step 42, joint angles:
+['90.429', '1.986', '-60.373', '-0.458']
+Time step 42, end-effector coordinates:
+['-9.148', '-399.877', '97.913', '-91.368']
+Time step 42, X+U
+[ 90.14  2.74 -60.76 -0.23]
+Condition: 0
+Time step 43, joint angles:
+['90.169', '2.671', '-60.753', '-0.261']
+Time step 43, end-effector coordinates:
+['-9.061', '-399.838', '97.844', '-91.960']
+Time step 43, X+U
+[ 90.04  3.07 -61.40  0.03]
+Condition: 0
+Time step 44, joint angles:
+['90.046', '3.043', '-61.389', '0.012']
+Time step 44, end-effector coordinates:
+['-9.339', '-399.784', '97.686', '-92.580']
+Time step 44, X+U
+[ 89.97  3.02 -62.22  0.30]
+Condition: 0
+Time step 45, joint angles:
+['89.972', '3.017', '-62.205', '0.291']
+Time step 45, end-effector coordinates:
+['-9.611', '-399.746', '97.421', '-93.102']
+Time step 45, X+U
+[ 89.82  2.61 -62.98  0.53]
+Condition: 0
+Time step 46, joint angles:
+['89.820', '2.637', '-62.967', '0.528']
+Time step 46, end-effector coordinates:
+['-9.014', '-399.762', '97.081', '-93.280']
+Time step 46, X+U
+[ 89.56  1.99 -63.41  0.68]
+Condition: 0
+Time step 47, joint angles:
+['89.561', '2.025', '-63.396', '0.685']
+Time step 47, end-effector coordinates:
+['-6.794', '-399.838', '96.764', '-92.984']
+Time step 47, X+U
+[ 89.30  1.34 -63.37  0.74]
+Condition: 0
+Time step 48, joint angles:
+['89.301', '1.386', '-63.365', '0.754']
+Time step 48, end-effector coordinates:
+['-3.120', '-399.926', '96.585', '-92.271']
+Time step 48, X+U
+[ 89.19  0.86 -63.00  0.74]
+Condition: 0
+Time step 49, joint angles:
+['89.187', '0.898', '-62.991', '0.752']
+Time step 49, end-effector coordinates:
+['0.645', '-399.971', '96.598', '-91.441']
+Time step 49, X+U
+[ 89.30  0.61 -62.57  0.67]
+Condition: 0
+Time step 50, joint angles:
+['89.296', '0.627', '-62.562', '0.683']
+Time step 50, end-effector coordinates:
+['2.933', '-399.977', '96.754', '-90.837']
+Time step 50, X+U
+[ 89.61  0.51 -62.36  0.49]
+Condition: 0
+Time step 51, joint angles:
+['89.602', '0.522', '-62.348', '0.501']
+Time step 51, end-effector coordinates:
+['2.997', '-399.983', '96.933', '-90.606']
+Time step 51, X+U
+[ 90.05  0.46 -62.42  0.15]
+Condition: 0
+Time step 52, joint angles:
+['90.030', '0.466', '-62.409', '0.163']
+Time step 52, end-effector coordinates:
+['1.184', '-399.994', '97.022', '-90.625']
+Time step 52, X+U
+[ 90.53  0.35 -62.57 -0.32]
+Condition: 0
+Time step 53, joint angles:
+['90.502', '0.366', '-62.558', '-0.291']
+Time step 53, end-effector coordinates:
+['-1.632', '-399.993', '96.996', '-90.659']
+Time step 53, X+U
+[ 90.93  0.16 -62.54 -0.76]
+Condition: 0
+Time step 54, joint angles:
+['90.912', '0.185', '-62.534', '-0.737']
+Time step 54, end-effector coordinates:
+['-4.627', '-399.971', '96.934', '-90.578']
+Time step 54, X+U
+[ 91.13 -0.06 -62.24 -1.07]
+Condition: 0
+Time step 55, joint angles:
+['91.120', '-0.043', '-62.228', '-1.057']
+Time step 55, end-effector coordinates:
+['-6.936', '-399.939', '96.944', '-90.359']
+Time step 55, X+U
+[ 91.08 -0.23 -61.77 -1.25]
+Condition: 0
+Time step 56, joint angles:
+['91.080', '-0.223', '-61.758', '-1.236']
+Time step 56, end-effector coordinates:
+['-7.686', '-399.926', '97.072', '-90.019']
+Time step 56, X+U
+[ 90.90 -0.26 -61.36 -1.36]
+Condition: 0
+Time step 57, joint angles:
+['90.904', '-0.262', '-61.349', '-1.354']
+Time step 57, end-effector coordinates:
+['-6.860', '-399.940', '97.267', '-89.621']
+Time step 57, X+U
+[ 90.72 -0.10 -61.16 -1.47]
+Condition: 0
+Time step 58, joint angles:
+['90.722', '-0.115', '-61.152', '-1.468']
+Time step 58, end-effector coordinates:
+['-5.506', '-399.961', '97.438', '-89.287']
+Time step 58, X+U
+[ 90.56  0.22 -61.17 -1.55]
+Condition: 0
+Time step 59, joint angles:
+['90.571', '0.204', '-61.163', '-1.551']
+Time step 59, end-effector coordinates:
+['-4.690', '-399.972', '97.520', '-89.139']
+Time step 59, X+U
+[ 90.40  0.67 -61.28 -1.54]
+Condition: 0
+Time step 60, joint angles:
+['90.408', '0.640', '-61.267', '-1.552']
+Time step 60, end-effector coordinates:
+['-4.610', '-399.973', '97.515', '-89.224']
+Time step 60, X+U
+[ 90.22  1.16 -61.35 -1.46]
+Condition: 0
+Time step 61, joint angles:
+['90.233', '1.126', '-61.338', '-1.471']
+Time step 61, end-effector coordinates:
+['-4.805', '-399.965', '97.472', '-89.496']
+Time step 61, X+U
+[ 90.13  1.58 -61.33 -1.34]
+Condition: 0
+Time step 62, joint angles:
+['90.135', '1.554', '-61.320', '-1.358']
+Time step 62, end-effector coordinates:
+['-5.067', '-399.949', '97.442', '-89.889']
+Time step 62, X+U
+[ 90.19  1.81 -61.24 -1.26]
+Condition: 0
+Time step 63, joint angles:
+['90.190', '1.800', '-61.233', '-1.266']
+Time step 63, end-effector coordinates:
+['-5.685', '-399.923', '97.450', '-90.331']
+Time step 63, X+U
+[ 90.37  1.76 -61.12 -1.22]
+Condition: 0
+Time step 64, joint angles:
+['90.362', '1.763', '-61.110', '-1.217']
+Time step 64, end-effector coordinates:
+['-6.824', '-399.893', '97.486', '-90.725']
+Time step 64, X+U
+[ 90.52  1.41 -60.94 -1.21]
+Condition: 0
+Time step 65, joint angles:
+['90.507', '1.436', '-60.932', '-1.199']
+Time step 65, end-effector coordinates:
+['-7.910', '-399.875', '97.538', '-90.908']
+Time step 65, X+U
+[ 90.51  0.87 -60.65 -1.18]
+Condition: 0
+Time step 66, joint angles:
+['90.505', '0.907', '-60.646', '-1.166']
+Time step 66, end-effector coordinates:
+['-7.924', '-399.891', '97.612', '-90.743']
+Time step 66, X+U
+[ 90.34  0.27 -60.27 -1.04]
+Condition: 0
+Time step 67, joint angles:
+['90.341', '0.313', '-60.260', '-1.031']
+Time step 67, end-effector coordinates:
+['-6.291', '-399.938', '97.731', '-90.245']
+Time step 67, X+U
+[ 90.08 -0.23 -59.91 -0.71]
+Condition: 0
+Time step 68, joint angles:
+['90.087', '-0.194', '-59.898', '-0.706']
+Time step 68, end-effector coordinates:
+['-3.332', '-399.985', '97.892', '-89.621']
+Time step 68, X+U
+[ 89.83 -0.49 -59.77 -0.14]
+Condition: 0
+Time step 69, joint angles:
+['89.834', '-0.472', '-59.757', '-0.154']
+Time step 69, end-effector coordinates:
+['-0.013', '-399.999', '98.042', '-89.186']
+Time step 69, X+U
+[ 89.63 -0.44 -59.99  0.58]
+Condition: 0
+Time step 70, joint angles:
+['89.640', '-0.444', '-59.978', '0.558']
+Time step 70, end-effector coordinates:
+['2.604', '-399.988', '98.101', '-89.208']
+Time step 70, X+U
+[ 89.52 -0.13 -60.53  1.28]
+Condition: 0
+Time step 71, joint angles:
+['89.527', '-0.148', '-60.524', '1.248']
+Time step 71, end-effector coordinates:
+['3.867', '-399.978', '98.009', '-89.754']
+Time step 71, X+U
+[ 89.52  0.28 -61.16  1.71]
+Condition: 0
+Time step 72, joint angles:
+['89.521', '0.254', '-61.148', '1.687']
+Time step 72, end-effector coordinates:
+['3.752', '-399.982', '97.782', '-90.627']
+Time step 72, X+U
+[ 89.66  0.58 -61.54  1.73]
+Condition: 0
+Time step 73, joint angles:
+['89.657', '0.568', '-61.526', '1.727']
+Time step 73, end-effector coordinates:
+['2.568', '-399.991', '97.522', '-91.462']
+Time step 73, X+U
+[ 89.92  0.68 -61.48  1.34]
+Condition: 0
+Time step 74, joint angles:
+['89.913', '0.674', '-61.474', '1.352']
+Time step 74, end-effector coordinates:
+['0.658', '-399.995', '97.364', '-91.952']
+Time step 74, X+U
+[ 90.19  0.61 -61.05  0.68]
+Condition: 0
+Time step 75, joint angles:
+['90.178', '0.614', '-61.037', '0.702']
+Time step 75, end-effector coordinates:
+['-1.454', '-399.991', '97.386', '-91.939']
+Time step 75, X+U
+[ 90.36  0.47 -60.39 -0.05]
+Condition: 0
+Time step 76, joint angles:
+['90.348', '0.479', '-60.387', '-0.017']
+Time step 76, end-effector coordinates:
+['-3.122', '-399.982', '97.568', '-91.495']
+Time step 76, X+U
+[ 90.44  0.28 -59.71 -0.61]
+Condition: 0
+Time step 77, joint angles:
+['90.437', '0.290', '-59.703', '-0.590']
+Time step 77, end-effector coordinates:
+['-3.892', '-399.978', '97.839', '-90.810']
+Time step 77, X+U
+[ 90.57  0.01 -59.17 -0.84]
+Condition: 0
+Time step 78, joint angles:
+['90.565', '0.024', '-59.157', '-0.829']
+Time step 78, end-effector coordinates:
+['-3.936', '-399.979', '98.124', '-90.137']
+Time step 78, X+U
+[ 90.82 -0.29 -58.90 -0.69]
+Condition: 0
+Time step 79, joint angles:
+['90.810', '-0.264', '-58.894', '-0.690']
+Time step 79, end-effector coordinates:
+['-4.016', '-399.980', '98.351', '-89.759']
+Time step 79, X+U
+[ 91.11 -0.40 -58.95 -0.28]
+Condition: 0
+Time step 80, joint angles:
+['91.098', '-0.392', '-58.944', '-0.286']
+Time step 80, end-effector coordinates:
+['-4.848', '-399.970', '98.461', '-89.857']
+Time step 80, X+U
+[ 91.26 -0.18 -59.18  0.18]
+Condition: 0
+Time step 81, joint angles:
+['91.259', '-0.187', '-59.167', '0.170']
+Time step 81, end-effector coordinates:
+['-6.469', '-399.945', '98.440', '-90.420']
+Time step 81, X+U
+[ 91.18  0.35 -59.36  0.51]
+Condition: 0
+Time step 82, joint angles:
+['91.188', '0.315', '-59.349', '0.487']
+Time step 82, end-effector coordinates:
+['-8.217', '-399.915', '98.347', '-91.242']
+Time step 82, X+U
+[ 90.90  0.94 -59.39  0.63]
+Condition: 0
+Time step 83, joint angles:
+['90.921', '0.895', '-59.379', '0.608']
+Time step 83, end-effector coordinates:
+['-9.256', '-399.891', '98.271', '-91.992']
+Time step 83, X+U
+[ 90.55  1.36 -59.34  0.61]
+Condition: 0
+Time step 84, joint angles:
+['90.566', '1.323', '-59.333', '0.599']
+Time step 84, end-effector coordinates:
+['-9.163', '-399.883', '98.259', '-92.424']
+Time step 84, X+U
+[ 90.18  1.51 -59.40  0.59]
+Condition: 0
+Time step 85, joint angles:
+['90.192', '1.495', '-59.387', '0.587']
+Time step 85, end-effector coordinates:
+['-7.992', '-399.894', '98.278', '-92.488']
+Time step 85, X+U
+[ 89.78  1.41 -59.66  0.67]
+Condition: 0
+Time step 86, joint angles:
+['89.791', '1.415', '-59.647', '0.666']
+Time step 86, end-effector coordinates:
+['-5.909', '-399.923', '98.255', '-92.275']
+Time step 86, X+U
+[ 89.33  1.13 -60.06  0.86]
+Condition: 0
+Time step 87, joint angles:
+['89.343', '1.138', '-60.047', '0.856']
+Time step 87, end-effector coordinates:
+['-2.859', '-399.960', '98.147', '-91.871']
+Time step 87, X+U
+[ 88.93  0.75 -60.39  1.14]
+Condition: 0
+Time step 88, joint angles:
+['88.942', '0.767', '-60.384', '1.137']
+Time step 88, end-effector coordinates:
+['1.114', '-399.979', '97.981', '-91.336']
+Time step 88, X+U
+[ 88.77  0.43 -60.50  1.47]
+Condition: 0
+Time step 89, joint angles:
+['88.772', '0.443', '-60.487', '1.467']
+Time step 89, end-effector coordinates:
+['5.046', '-399.959', '97.840', '-90.846']
+Time step 89, X+U
+[ 88.96  0.27 -60.35  1.74]
+Condition: 0
+Time step 90, joint angles:
+['88.952', '0.276', '-60.341', '1.738']
+Time step 90, end-effector coordinates:
+['7.221', '-399.932', '97.797', '-90.682']
+Time step 90, X+U
+[ 89.41  0.28 -60.10  1.77]
+Condition: 0
+Time step 91, joint angles:
+['89.394', '0.280', '-60.093', '1.777']
+Time step 91, end-effector coordinates:
+['6.473', '-399.946', '97.858', '-90.966']
+Time step 91, X+U
+[ 89.88  0.39 -59.94  1.46]
+Condition: 0
+Time step 92, joint angles:
+['89.865', '0.393', '-59.929', '1.467']
+Time step 92, end-effector coordinates:
+['3.376', '-399.985', '97.961', '-91.451']
+Time step 92, X+U
+[ 90.16  0.55 -59.96  0.84]
+Condition: 0
+Time step 93, joint angles:
+['90.152', '0.541', '-59.948', '0.861']
+Time step 93, end-effector coordinates:
+['-0.258', '-399.998', '98.030', '-91.724']
+Time step 93, X+U
+[ 90.17  0.66 -60.11  0.13]
+Condition: 0
+Time step 94, joint angles:
+['90.174', '0.651', '-60.104', '0.153']
+Time step 94, end-effector coordinates:
+['-2.711', '-399.986', '98.022', '-91.553']
+Time step 94, X+U
+[ 89.98  0.66 -60.25 -0.47]
+Condition: 0
+Time step 95, joint angles:
+['89.983', '0.654', '-60.238', '-0.455']
+Time step 95, end-effector coordinates:
+['-3.204', '-399.981', '97.957', '-90.977']
+Time step 95, X+U
+[ 89.74  0.54 -60.24 -0.86]
+Condition: 0
+Time step 96, joint angles:
+['89.746', '0.539', '-60.230', '-0.852']
+Time step 96, end-effector coordinates:
+['-1.879', '-399.989', '97.901', '-90.182']
+Time step 96, X+U
+[ 89.70  0.38 -60.14 -1.07]
+Condition: 0
+Time step 97, joint angles:
+['89.700', '0.391', '-60.132', '-1.064']
+Time step 97, end-effector coordinates:
+['0.132', '-399.996', '97.904', '-89.432']
+Time step 97, X+U
+[ 90.02  0.30 -60.13 -1.22]
+Condition: 0
+Time step 98, joint angles:
+['90.012', '0.313', '-60.119', '-1.215']
+Time step 98, end-effector coordinates:
+['0.902', '-399.997', '97.945', '-89.027']
+Time step 98, X+U
+[ 90.75  0.25 -60.29 -1.57]
+Condition: 0
+Time step 99, joint angles:
+['90.712', '0.265', '-60.276', '-1.548']
+Time step 99, end-effector coordinates:
+['-1.042', '-399.997', '97.950', '-89.110']
+Time step 99, X+U
+[ 92.42 -0.16 -60.57 -3.00]
+Sample finished at: Iteration 0 condition 0 sample 2
+
+Iteration 0 condition 1 sample 0
+Linear Gaussian Policy
+Initial state:
+[ 88.80  0.39 -60.10  0.00]
+Target state:
+[-30.09  90.91 -55.19 -60.82]
+[ 280.00 -40.00  100.00  0.00]

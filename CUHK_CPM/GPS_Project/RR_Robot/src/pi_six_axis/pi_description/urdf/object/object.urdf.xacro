@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:joint="http://playerstage.sourceforge.net/gazebo/xmlschema/#slider"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find pi_description)/urdf/object/object.gazebo.xacro" />
+
+  <property name="object_mass" value="0.1" />
+  <property name="object_x" value="0.06" />
+  <property name="object_y" value="0.06" />
+  <property name="object_z" value="0.2" />
+
+  <xacro:macro name="object" params="parent *origin">
+<!--     <joint name="object_joint" type="fixed">
+        <insert_block name="origin"/>
+        <parent link="${parent}" />
+        <child link="object_link" />
+      </joint>  -->
+    <joint name="object_joint" type="revolute">
+    <insert_block name="origin"/>
+    <parent link="${parent}" />
+    <child link="object_link" />
+    <axis xyz="0 0 1" />
+    <dynamics damping="2"/>
+    <limit effort="0" velocity="0" upper="0" lower="0" />
+  </joint>
+
+        <link name="object_link">
+        <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="${object_mass}" />
+          <inertia
+            ixx="${object_mass/12 * (object_z*object_z + object_y*object_y)}"
+            ixy="0"
+            ixz="0"
+            iyy="${object_mass/12 * (object_z*object_z + object_x*object_x)}"
+            iyz="0"
+            izz="${object_mass/12 * (object_x*object_x + object_y*object_y)}" />
+        </inertial>
+
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="package://pi_description/meshes/object/object.dae" />
+          </geometry>
+          <material name="orange"/>
+        </visual>
+
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="package://pi_description/meshes/object/object.dae" />
+          </geometry>
+        </collision>
+      </link>
+    <!-- extensions -->
+    <xacro:object_gazebo link_name="object_link" />
+    </xacro:macro>
+
+</robot>

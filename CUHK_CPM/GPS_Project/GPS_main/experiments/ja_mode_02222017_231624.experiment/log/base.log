@@ -1,0 +1,58 @@
+2017-02-23 00:26:40,636 gps_main.py[line:544] INFO Experiment: ja_mode_02222017_231624.experiment
+2017-02-23 00:26:40,636 gps_main.py[line:545] INFO Hyper parameters path: experiments/ja_mode_02222017_231624.experiment/hyperparams.py
+2017-02-23 00:26:40,637 gps_main.py[line:628] INFO Starting training from iteration 0 ...
+2017-02-23 00:26:41,361 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 0
+2017-02-23 00:26:41,361 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:26:41,362 agent_pi.py[line:52] INFO [ 91.05 -89.58 -60.89  0.00  0.00  0.00]
+2017-02-23 00:26:41,363 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:26:41,363 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:26:41,364 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:26:41,379 agent_pi.py[line:135] INFO Reset to initial state...
+2017-02-23 00:28:44,423 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 1
+2017-02-23 00:28:44,423 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:28:44,423 agent_pi.py[line:52] INFO [ 91.05 -89.58 -60.89  0.00  0.00  0.00]
+2017-02-23 00:28:44,424 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:28:44,424 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:28:44,425 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:28:44,437 agent_pi.py[line:135] INFO Reset to initial state...
+2017-02-23 00:30:39,557 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 2
+2017-02-23 00:30:39,557 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:30:39,557 agent_pi.py[line:52] INFO [ 91.05 -89.58 -60.89  0.00  0.00  0.00]
+2017-02-23 00:30:39,558 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:30:39,558 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:30:39,559 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:32:04,743 gps_main.py[line:544] INFO Experiment: ja_mode_02222017_231624.experiment
+2017-02-23 00:32:04,743 gps_main.py[line:545] INFO Hyper parameters path: experiments/ja_mode_02222017_231624.experiment/hyperparams.py
+2017-02-23 00:32:04,743 gps_main.py[line:628] INFO Starting training from iteration 0 ...
+2017-02-23 00:32:05,456 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 0
+2017-02-23 00:32:05,457 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:32:05,457 agent_pi.py[line:52] INFO [ 91.05 -89.58 -60.89  0.00  0.00  0.00]
+2017-02-23 00:32:05,458 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:32:05,459 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:32:05,460 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:44:02,630 gps_main.py[line:544] INFO Experiment: ja_mode_02222017_231624.experiment
+2017-02-23 00:44:02,631 gps_main.py[line:545] INFO Hyper parameters path: experiments/ja_mode_02222017_231624.experiment/hyperparams.py
+2017-02-23 00:44:02,631 gps_main.py[line:628] INFO Starting training from iteration 0 ...
+2017-02-23 00:44:03,376 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 0
+2017-02-23 00:44:03,378 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:44:03,378 agent_pi.py[line:52] INFO [ 89.59 -87.41 -60.44  0.00  0.00  0.00]
+2017-02-23 00:44:03,379 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:44:03,379 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:44:03,381 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:44:22,516 gps_main.py[line:544] INFO Experiment: ja_mode_02222017_231624.experiment
+2017-02-23 00:44:22,516 gps_main.py[line:545] INFO Hyper parameters path: experiments/ja_mode_02222017_231624.experiment/hyperparams.py
+2017-02-23 00:44:22,516 gps_main.py[line:628] INFO Starting training from iteration 0 ...
+2017-02-23 00:44:23,274 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 0
+2017-02-23 00:44:23,276 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:44:23,276 agent_pi.py[line:52] INFO [ 89.59 -87.41 -60.44  0.00  0.00  0.00]
+2017-02-23 00:44:23,277 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:44:23,278 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:44:23,279 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:44:23,294 agent_pi.py[line:136] INFO Reset to initial state...
+2017-02-23 00:46:26,314 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 1
+2017-02-23 00:46:26,314 agent_pi.py[line:51] INFO Initial state:
+2017-02-23 00:46:26,314 agent_pi.py[line:52] INFO [ 89.59 -87.41 -60.44  0.00  0.00  0.00]
+2017-02-23 00:46:26,315 agent_pi.py[line:53] INFO Target state:
+2017-02-23 00:46:26,315 agent_pi.py[line:54] INFO [ 35.24 -74.12 -55.19  38.88  0.00  0.00]
+2017-02-23 00:46:26,316 agent_pi.py[line:55] INFO [ 320.00 -20.00  100.00 -0.00  0.00 -0.00]
+2017-02-23 00:46:26,328 agent_pi.py[line:136] INFO Reset to initial state...

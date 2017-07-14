@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:xacro="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       name="pi" >
+
+  <!-- pi base -->
+  <xacro:include filename="$(find pi_description)/urdf/base_robot/base_robot.urdf.xacro" />
+  <xacro:include filename="$(find pi_description)/urdf/pneumatic_gripper/pneumatic_gripper.urdf.xacro" />
+ <!--  add pi_robot -->
+  <xacro:base_urdf/>
+ <!--  add gripper -->
+    <xacro:pneumatic_gripper_urdf parent="link_6">
+    <origin xyz="0.0165 0 0" rpy="0 ${-PI/2} 0" />
+  </xacro:pneumatic_gripper_urdf> 
+</robot>

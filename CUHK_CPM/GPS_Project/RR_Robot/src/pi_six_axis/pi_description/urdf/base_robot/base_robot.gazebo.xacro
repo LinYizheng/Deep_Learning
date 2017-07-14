@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="base_gazebo">
+  <gazebo>
+    <plugin name="gazebo_control" filename="libpi_six_axis.so">
+      <RobotNamespace>/pi</RobotNamespace>
+      <UrdfFilePath>$(find pi_description)/robots/pi.urdf</UrdfFilePath>
+      <NaturalFreq1>50</NaturalFreq1>
+      <NaturalFreq2>50</NaturalFreq2>
+      <NaturalFreq3>60</NaturalFreq3>
+      <NaturalFreq4>50</NaturalFreq4>
+      <NaturalFreq5>50</NaturalFreq5>
+      <NaturalFreq6>40</NaturalFreq6>
+    </plugin>
+  </gazebo>
+  <gazebo reference="table">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_2">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_4">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_6">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+  </xacro:macro>
+
+  <xacro:macro name="base_gazebo_angle_control">
+  <gazebo>
+    <plugin name="gazebo_control" filename="libangle_control.so">
+      <Dof>6</Dof>
+      <UrdfFilePath>$(find pi_description)/robots/pi.urdf</UrdfFilePath>
+      <NaturalFreq1>50</NaturalFreq1>
+      <NaturalFreq2>50</NaturalFreq2>
+      <NaturalFreq3>60</NaturalFreq3>
+      <NaturalFreq4>50</NaturalFreq4>
+      <NaturalFreq5>50</NaturalFreq5>
+      <NaturalFreq6>40</NaturalFreq6>
+      <GearRatio1>121</GearRatio1>
+      <GearRatio2>101</GearRatio2>
+      <GearRatio3>81</GearRatio3>
+      <GearRatio4>51</GearRatio4>
+      <GearRatio5>50</GearRatio5>
+      <GearRatio6>36</GearRatio6>
+    </plugin>
+  </gazebo>
+  
+<!--   <gazebo>
+    <plugin name="gazebo_control" filename="libangle_control.so">
+      <RobotNamespace>/pi</RobotNamespace>
+    </plugin>
+  </gazebo> -->
+  <gazebo reference="table">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_2">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_4">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="link_6">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+
+
+
+  </xacro:macro>
+
+
+</robot>

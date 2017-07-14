@@ -1,0 +1,8 @@
+prefix=/home/turinglife/GPS_Project/RR_Robot/devel
+
+Name: pi_gazebo
+Description: Description of pi_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/turinglife/GPS_Project/RR_Robot/devel/lib 
+Requires: 

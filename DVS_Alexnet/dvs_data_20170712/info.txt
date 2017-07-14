@@ -1,0 +1,10 @@
+HONG SAN WONG
+Date: 2017-07-12
+
+This is a data set capture with DVS camera. Greyscale and Event combine into one image. 
+
+Purpose: Detect when hands enter robotic arm working zone and triggle emergency stop
+
+Number of classes: 2
+(1) hand
+(2) nohand

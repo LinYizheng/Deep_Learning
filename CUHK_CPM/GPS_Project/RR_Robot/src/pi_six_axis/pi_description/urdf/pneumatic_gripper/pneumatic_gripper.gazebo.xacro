@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="pneumatic_gripper_gazebo">
+<!--     <gazebo reference="gripper_base">
+      <material>Gazebo/Black</material>
+    </gazebo> -->
+    <gazebo reference="suction_cup">
+      <kp value="1.0" />
+      <kd value="10000.0" />
+      <material>Gazebo/Black</material>
+    </gazebo>
+
+  </xacro:macro>
+
+    <xacro:macro name="pneumatic_gripper_plugin">
+	  <gazebo>
+	    <plugin name="pneumatic_gripper_plugin" filename="libpneumatic_gripper.so">
+        <gripper_link>mybot::link_6</gripper_link>
+	    </plugin>
+	  </gazebo>
+	</xacro:macro>
+</robot>

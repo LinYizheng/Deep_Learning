@@ -1,0 +1,30 @@
+2017-02-24 17:19:43,515 gps_main.py[line:525] INFO Experiment: ja_mode_02242017_170140.experiment
+2017-02-24 17:19:43,515 gps_main.py[line:526] INFO Hyper parameters path: experiments/ja_mode_02242017_170140.experiment/hyperparams.py
+2017-02-24 17:19:43,516 gps_main.py[line:609] INFO Starting training from iteration 0 ...
+2017-02-24 17:19:59,526 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 0
+2017-02-24 17:19:59,526 agent_pi.py[line:55] INFO Initial state:
+2017-02-24 17:19:59,526 agent_pi.py[line:56] INFO [ 89.89  0.97 -60.48  0.00]
+2017-02-24 17:19:59,528 agent_pi.py[line:57] INFO Target state:
+2017-02-24 17:19:59,528 agent_pi.py[line:58] INFO [-30.07  49.40 -55.19 -19.22]
+2017-02-24 17:19:59,529 agent_pi.py[line:59] INFO [ 360.00  60.00  100.00 -0.00]
+2017-02-24 17:19:59,536 agent_pi.py[line:180] INFO Reset to initial state...
+2017-02-24 17:20:42,773 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 1
+2017-02-24 17:20:42,774 agent_pi.py[line:55] INFO Initial state:
+2017-02-24 17:20:42,774 agent_pi.py[line:56] INFO [ 89.89  0.97 -60.48  0.00]
+2017-02-24 17:20:42,776 agent_pi.py[line:57] INFO Target state:
+2017-02-24 17:20:42,776 agent_pi.py[line:58] INFO [-30.07  49.40 -55.19 -19.22]
+2017-02-24 17:20:42,777 agent_pi.py[line:59] INFO [ 360.00  60.00  100.00 -0.00]
+2017-02-24 17:20:42,793 agent_pi.py[line:180] INFO Reset to initial state...
+2017-02-24 17:21:26,002 gps_main.py[line:291] INFO Iteration 0 condition 0 sample 2
+2017-02-24 17:21:26,003 agent_pi.py[line:55] INFO Initial state:
+2017-02-24 17:21:26,003 agent_pi.py[line:56] INFO [ 89.89  0.97 -60.48  0.00]
+2017-02-24 17:21:26,004 agent_pi.py[line:57] INFO Target state:
+2017-02-24 17:21:26,004 agent_pi.py[line:58] INFO [-30.07  49.40 -55.19 -19.22]
+2017-02-24 17:21:26,005 agent_pi.py[line:59] INFO [ 360.00  60.00  100.00 -0.00]
+2017-02-24 17:21:26,015 agent_pi.py[line:180] INFO Reset to initial state...
+2017-02-24 17:22:09,229 gps_main.py[line:291] INFO Iteration 0 condition 1 sample 0
+2017-02-24 17:22:09,230 agent_pi.py[line:55] INFO Initial state:
+2017-02-24 17:22:09,230 agent_pi.py[line:56] INFO [ 88.80  0.39 -60.10  0.00]
+2017-02-24 17:22:09,231 agent_pi.py[line:57] INFO Target state:
+2017-02-24 17:22:09,231 agent_pi.py[line:58] INFO [-30.09  90.91 -55.19 -60.82]
+2017-02-24 17:22:09,232 agent_pi.py[line:59] INFO [ 280.00 -40.00  100.00  0.00]

@@ -1,0 +1,8 @@
+prefix=/home/turinglife/GPS_Project/RR_Robot/devel
+
+Name: rr_plugin
+Description: Description of rr_plugin
+Version: 0.0.0
+Cflags: -I/home/turinglife/GPS_Project/RR_Robot/devel/include
+Libs: -L/home/turinglife/GPS_Project/RR_Robot/devel/lib 
+Requires: message_runtime message_generation
