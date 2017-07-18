@@ -28,7 +28,7 @@ AGENT			             ENV
 
 AGENT - ENV - loop
 Each timestep: Agent chooses an action, env return an observation and reward
-Process gets start
+Process gets started by calling "reset" -> Return initial "Obsevation" 
 
 
 '''
